@@ -52,7 +52,7 @@ Design of the temperature sensor is based on the below literature:
 
 Functional block diagram of the system is given below:
 
-![Figure Block Diag](./images/Fig0)
+![Figure Block Diag](./images/Fig0.png)
 
 Fig. 0 Functional Block Diagram
 

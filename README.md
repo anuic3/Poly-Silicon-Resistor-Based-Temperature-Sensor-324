@@ -501,6 +501,6 @@ Complete floor plan of the temperature sensor is given below.
 
 ## 7. Summary of the present status
 
-- [x] All functional blocks layout is complete.
-- [x] Postlayout simulation have to be carried out for 20bit counter and divider, rest of the blocks are verified.
-- [ ] Temerature range and mapping to binary code and estimating the accuracy are to completed.
+- [x] All functional blocks layouts are complete.
+- [x] Postlayout simulation have to be carried out for 20bit counter and divider, for the rest of the blocks postlayout simulations are verified.
+- [ ] Mapping of temperature measure to binary code and estimating the accuracy are to be completed.

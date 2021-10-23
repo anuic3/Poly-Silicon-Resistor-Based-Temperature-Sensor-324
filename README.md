@@ -88,29 +88,29 @@ Table 1a: Component values of Wein Bridge
 | `res_xhigh_po_0p35` | 135 kΩ | 23.625 | 0.35 | - |
 | `cap_mim_m3_1` | 4.7 pF | 24 | 24.1 | 4 |
 
-![Figure 1a](./images/Fig1a)
+![Figure 1a](./images/Fig1a.png)
 Fig 1a Circuit Schematic of Wein Bridge
 
 The resistance of the polysilicon resistor is characterized as a function of temperature and under process corners. The characteristics at nominal process is shown in Fig. 1b. With process corners, the resonant frequencies are extracted from the transfer characteristics of the bridge using an AC analysis. Plots of Resistance vs Temperature and transfer functions for two process corners are given Fig.1b,c,d and e and a sµmmary of the resonant frequencies under various process corners is provided in the Table 1b.
 
-![Figure 1b](./images/Fig1b)
+![Figure 1b](./images/Fig1b.png)
 Fig. 1b Variation of R with Temperature
 
-![Figure 1c1](./images/Fig1c1)
+![Figure 1c1](./images/Fig1c1.png)
 Fig. 1c Transfer function (Magnitude) of Wein Bridge at HH process corner at -35°C
 
-![Figure 1c2](./images/Fig1c2)
+![Figure 1c2](./images/Fig1c2.png)
 Fig. 1c Transfer function (Phase) of Wein Bridge at HH process corner at -35°C
 
 #### (b) Characteristic under LL process corner:
 
-![Figure 1d](./images/Fig1d)
+![Figure 1d](./images/Fig1d.png)
 Fig. 1d Variation of R with Temperature at LL process corner
 
-![Figure 1e1](./images/Fig1e1)
+![Figure 1e1](./images/Fig1e1.png)
 Fig. 1c Transfer function (Magnitude) of Wein Bridge at LL process corner at -35°C
 
-![Figure 1e2](./images/Fig1e2)
+![Figure 1e2](./images/Fig1e2.png)
 Fig. 1c Transfer function (Phase) of Wein Bridge at LL process corner at -35°C
 
 Similar characteristics are extracted under process combinations hl and lh and at extreme temperatures. The resonant frequency of the bridge at extreme temperatures and at room temperature are shown in Table 1b.
@@ -135,15 +135,15 @@ For capacitor realization a common centroid approach is used to place capacitors
 
 Post layout simulations of the constructed Wein bridge are given in Fig.1f below:
 
-![Figure 1f1](./images/Fig1f1)
+![Figure 1f1](./images/Fig1f1.png)
 Fig.1f Post layout Simulation of transfer function (magnitude) of Wein Bridge
 
-![Figure 1f2](./images/Fig1f2)
+![Figure 1f2](./images/Fig1f2.png)
 Fig.1f Post layout Simulation of transfer function (phase) of Wein Bridge
 
 The report showing resonant frequency of Analysis is shown in Fig. 1g.
 
-![Figure 1g](./images/Fig1g)
+![Figure 1g](./images/Fig1g.png)
 Fig. 1g Report showing Resonant frequency extracted from AC analysis.
 
 The centre frequency of the Wein Bridge in post layout simulation at room temperature is found to be 210.8628 kHz showing a deviation of 39.137 kHz from the required resonant frequency of 250 kHz.
@@ -163,7 +163,7 @@ the terminal polarity of the gain boosting amplifiers for negative feedback acti
 
 Circuit component details, layout details and charaterization of chopper integrated current buffer functionality at extreme temperatures and under process corners are described below:
 
-![Figure 2a](./images/Fig2a)
+![Figure 2a](./images/Fig2a.png)
 Fig. 2a Circuit schematic of the current buffer integrated with chopper
 
 #### (a) Circuit Component Details:
@@ -181,16 +181,16 @@ Device Dimesions, Resistor values and Bias voltages used in the cascode current 
 pull down amplifier, pull up amplifier and chopper circuit are shown in Fig. 2b,c,d &f. Their
 respective component values are given in Table 2b.
 
-![Figure 2b](./images/Fig2b)
+![Figure 2b](./images/Fig2b.png)
 Fig. 2b Circuit Schematic of low voltage swing cascode current Buffer
 
-![Figure 2c](./images/Fig2c)
+![Figure 2c](./images/Fig2c.png)
 Fig. 2c Circuit Schematic of gain boosting amplifier in pull down path
 
-![Figure 2d](./images/Fig2d)
+![Figure 2d](./images/Fig2d.png)
 Fig. 2d Circuit Schematic of gain boosting amplifier in pull up path
 
-![Figure 2e](./images/Fig2e)
+![Figure 2e](./images/Fig2e.png)
 Fig. 2e Circuit Schematic of chopper
 
 Table 2b: Component values of Chopper based Current Buffer
@@ -230,7 +230,7 @@ amplitude 1.8V , are fed to the chopper circuit. The simulations were carried ou
 temperature and under process corners. The resulting ouput current waveform is shown in the
 Fig.2f.
 
-![Figure 2f](./images/Fig2f)
+![Figure 2f](./images/Fig2f.png)
 Fig.2e. Output Current from Current Buffer
 
 From the current waveform, it can be seen that output amplitude is approximately of 4 µA, and
@@ -247,7 +247,7 @@ A low pass filter is designed to extract a DC voltage proportional to phase erro
 The circuit schematic of the time interleaved switch capcitor is shown in Fig.3a.
 Component details and post layout simulations are given below:
 
-![Figure 3a](./images/Fig3a)
+![Figure 3a](./images/Fig3a.png)
 Fig. 3a. Circuit schematic diagram of Switch Capacitor Filter
 
 #### (a) Component details
@@ -273,7 +273,7 @@ resistance of current buffer. The cut off frequency was observed to be 184 Hz an
 was found to be 84pF. Cutoff frequency was observed to match with prelayout simulations.The
 bode plot obtained from pre and post layout simulations are shown in Figure 3b. From the figure it can be seen that prelayout simulation charcteristics matches with that of postlaout simulations.
 
-![Figure 3b](./images/Fig3b)
+![Figure 3b](./images/Fig3b.png)
 Fig. 3b Pre and post layout simulations of lowpass filter
 
 #### (d) Pending Task: 
@@ -282,14 +282,14 @@ At extreme temperatures and process corners, postlayout simulations have to be c
 ### (iv) VCO
 VCO is realized as a nine stage current starved ring oscillator similar to that in [1] except that the current source is presently being used without a source degeneration resistor. The circuit schematic of VCO is shown in Fig. 4a. The current source used in the ring oscillator is a control voltage dependent current source with the maximum current capability of 12µA. The transistors of the delay stages are sized such that the range of frequency obtained is ±200kHz from 1MHz which is based on Wein Bridge resonant condition for the temperature range of interest.
 
-![Figure 4a](./images/Fig4a)
+![Figure 4a](./images/Fig4a.png)
 Fig. 4a. Circuit schematic of ring oscillator based VCO
 
 #### (a) Component Details:
 The delay element stages along with the current source is shown in Fig.4b. The device dimension
 details are given in Table 4
 
-![Figure 4b](./images/Fig4b)
+![Figure 4b](./images/Fig4b.png)
 Fig. 4b. Delay element stages
 
 Table 4: Component values of VCO
@@ -309,7 +309,7 @@ and under process corners. The VCO gain characteristic is shown below. For extre
 settings and under nominal process corners, the control voltage was varied in equal increments and the period was measured using `trig` command. Using the period information of VCO output
 signal, frequencies obtained from VCO are plotted as a function of control voltage. 
 
-![Figure 4c](./images/Fig4c)
+![Figure 4c](./images/Fig4c.png)
 Fig. 4c. VCO Gain characteristics
 
 From the characteristics it can observed that VCO gain charcteristics meets the range of frequency variations required by Wein Bridge.
@@ -320,10 +320,10 @@ The cells are placed such that the metals takes shorter route between transistor
 ### (v) Divider
 The divider is used for obtaining division factor of 4. An inphase and a quadrature phase divide by 4 signal are generated from VCO output signal. The block diagram is shown in Fig. 5a. This is realised by using master slave multiplexer based Flip Flop. Circuit schematic of the master slave flip flop is shown in the below figure Fig. 5b. Clear signal resets the state of the closed loop by breaking open the feedback loop and forcing the value to zero. This is carried out by means of a NOR operation.
 
-![Figure 5a](./images/Fig5a)
+![Figure 5a](./images/Fig5a.png)
 Fig.5a Block diagram of Mux based static Flip Flop
 
-![Figure 5b](./images/Fig5b)
+![Figure 5b](./images/Fig5b.png)
 Fig.5b Circuit Schematic diagram of Mux based static Flip Flop
 
 Table 5: Component values of Flip Flop
@@ -346,7 +346,7 @@ At extreme temperatures and process corners, postlayout simulations have to be c
 Edge combiner is realized using NAND gates that combines VCO outputs from each of its 9 delay
 stages. Buffers are used to drive the edge combiner. The circuit schematic is shown in Fig. 6a.
 
-![Figure 6a](./images/Fig6a)
+![Figure 6a](./images/Fig6a.png)
 Fig. 6a Circuit schematic of Edge combiner
 
 #### (a) Component Details
@@ -382,12 +382,12 @@ corners
 
 Closed loop simulations are carried out using the circuit schematic diagram shown in Fig.7a Results of each of the settings mentioned above are explained below.
 
-![Figure 7a](./images/Fig7a)
+![Figure 7a](./images/Fig7a.png)
 Fig.7a Closed loop Circuit schematic of FLL integrated with Edge combiner
 
 ### a) FLL integrated with edgecombiner at room temperature and at nominal process corners
 
-![Figure 7b](./images/Fig7b)
+![Figure 7b](./images/Fig7b.png)
 Fig. 7b showing locking characteristics of control voltage, VCO and Divider output
 
 The control voltage from Fig.7b. is of 730.7mV at nearly about 2.5 time constants(measured at
@@ -395,14 +395,14 @@ The control voltage from Fig.7b. is of 730.7mV at nearly about 2.5 time constant
 test bench setup at room temperature, period and hence frequency of VCO output is measured.
 This is shown in Fig.7c.
 
-![Figure 7c](./images/Fig7c)
+![Figure 7c](./images/Fig7c.png)
 Fig.7c VCO test bench for measuring frequency at room temperature
 
 Using the control voltage setting of 730.7mV, from the corresponding VCO output period is
 measured using `trig` command. This is found to be 0.9491414µs and the corresponding frequency
 is 1.05358379689MHz.
 
-![Figure 7d](./images/Fig7d)
+![Figure 7d](./images/Fig7d.png)
 Fig. 7d shows VCO output, Inphase , Quadrature phase divide by 4 Output at room temperature
 
 From the above Fig. 7d, under locked condition divide by 4 nature of inphase, quadrature phase
@@ -413,10 +413,10 @@ plots, test bench setup are shown in the below section (b) and (c).
 
 ### b) FLL integrated with edge combiner at -35°C and at nominal process corners
 
-![Figure 7e](./images/Fig7e)
+![Figure 7e](./images/Fig7e.png)
 Fig. 7e showing locking characteristics of control voltage, VCO and Divider output at -35°C
 
-![Figure 7f](./images/Fig7f)
+![Figure 7f](./images/Fig7f.png)
 Fig.7f VCO test bench for measuring frequency at -35°C
 
 The control voltage from Fig.7e. the control voltage is observed to be 813mV at -35°C . This is
@@ -424,21 +424,22 @@ used in VCO test bench setup at -35°C, period and hence frequency of VCO output
 This is shown in Fig.7f. 
 Period is measured to be 1.034826µs and the respective frequency measure is 966.34603305kHz.
 
-![Figure 7f](./images/Fig7f)
+![Figure 7g](./images/Fig7g.png)
 Fig. 7g shows VCO output, Inphase , Quadrature phase divide by 4 Output and Edge combiner
-output at -35°C
+output at -35°C.
+
 From the above Fig. 7g. , under locked condition divide by 4 nature , inphase, quadrature phase of the divider output signal, edge combiner output can be observed. Edge combiner output can be
 observed to be nine time the frequency of VCO signal (Fvco).
 
 (c) FLL integrated with edgecombiner at +85°C and at nominal process corners
 
-![Figure 7h](./images/Fig7h)
+![Figure 7h](./images/Fig7h.png)
 Fig.7h Locking characteristic of FLL at 85°C
 
-![Figure 7i](./images/Fig7i)
+![Figure 7i](./images/Fig7i.png)
 Fig.7i VCO test bench for measuring frequency at 85°C
 
-![Figure 7j](./images/Fig7j)
+![Figure 7j](./images/Fig7j.png)
 Fig. 7j shows VCO output, Inphase , Quadrature phase divide by 4 Output and Edge combiner output at 85°C
 
 The control voltage from Fig.7h. the control voltage is observed to be 540mV at 85°C . This is
@@ -459,7 +460,7 @@ A complete integration of the system with 20 bit counter is carried out and tran
 
 Complete floor plan of the temperature sensor is given below.
 
-![Figure 7k](./images/Fig7k)
+![Figure 7k](./images/Fig7k.png)
 
 #### The temperature sensor circuit area was found to be **280µm^2**
 

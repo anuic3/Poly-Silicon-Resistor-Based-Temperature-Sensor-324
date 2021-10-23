@@ -1,0 +1,2 @@
+
+The symbol and spice subcircuit definition of D - flipflop are modifed from what is present in the Standard Cell library folder present in ~/open_pdks/sky130/sky130A/... So while trying to do schematic level simulations or extracting schematic netlist for LVS, don't forget to manually insert the line ".include the_location_where_subcircuit_definition_is_present/poseEdge_Dff.spice". The modification I made is to remove the parameter VPB and VNB from the D-ff symbol dfrbp_1.sym.

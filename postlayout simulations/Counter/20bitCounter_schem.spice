@@ -1,0 +1,51 @@
+**.subckt 20bitCounter_stdCell
+V1 VDD GND 1.8
+V2 Vclk GND pulse(0V 1.8V clk_offset clk_risetime clk_falltime {clk_period/2} clk_period 0deg) 
+V4 Vreset GND pwl(0.0us 1.8V, 0.090us 1.8V, 0.091us 0.0V, 0.100us 0.0V, 0.101us 1.8V)
+x1 Vclk net1 Vreset GND GND VDD VDD vout0 net1 sky130_fd_sc_hd__dfrbp_1
+x2 net1 net2 Vreset GND GND VDD VDD vout1 net2 sky130_fd_sc_hd__dfrbp_1
+x3 net2 net3 Vreset GND GND VDD VDD vout2 net3 sky130_fd_sc_hd__dfrbp_1
+x4 net3 net4 Vreset GND GND VDD VDD vout3 net4 sky130_fd_sc_hd__dfrbp_1
+x5 net4 net5 Vreset GND GND VDD VDD vout4 net5 sky130_fd_sc_hd__dfrbp_1
+x6 net5 net6 Vreset GND GND VDD VDD vout5 net6 sky130_fd_sc_hd__dfrbp_1
+x7 net6 net7 Vreset GND GND VDD VDD vout6 net7 sky130_fd_sc_hd__dfrbp_1
+x8 net7 net8 Vreset GND GND VDD VDD vout7 net8 sky130_fd_sc_hd__dfrbp_1
+x9 net8 net9 Vreset GND GND VDD VDD vout8 net9 sky130_fd_sc_hd__dfrbp_1
+x10 net9 net10 Vreset GND GND VDD VDD vout9 net10 sky130_fd_sc_hd__dfrbp_1
+x11 net10 net11 Vreset GND GND VDD VDD vout10 net11 sky130_fd_sc_hd__dfrbp_1
+x12 net11 net12 Vreset GND GND VDD VDD vout11 net12 sky130_fd_sc_hd__dfrbp_1
+x13 net12 net13 Vreset GND GND VDD VDD vout12 net13 sky130_fd_sc_hd__dfrbp_1
+x14 net13 net14 Vreset GND GND VDD VDD vout13 net14 sky130_fd_sc_hd__dfrbp_1
+x15 net14 net15 Vreset GND GND VDD VDD vout14 net15 sky130_fd_sc_hd__dfrbp_1
+x16 net15 net16 Vreset GND GND VDD VDD vout15 net16 sky130_fd_sc_hd__dfrbp_1
+x17 net16 net17 Vreset GND GND VDD VDD vout16 net17 sky130_fd_sc_hd__dfrbp_1
+x18 net17 net18 Vreset GND GND VDD VDD vout17 net18 sky130_fd_sc_hd__dfrbp_1
+x19 net18 net19 Vreset GND GND VDD VDD vout18 net19 sky130_fd_sc_hd__dfrbp_1
+x20 net19 net20 Vreset GND GND VDD VDD vout19 net20 sky130_fd_sc_hd__dfrbp_1
+**** begin user architecture code
+
+
+.param clk_period=111.11ns clk_offset={clk_period/2} clk_risetime=5ns clk_falltime={clk_risetime}
+.func data_time(x) {clk_offset/2 + x*(clk_period/2)}
+
+.tran 1us {65536*clk_period}
+.save vclk vreset vout0 vout1 vout2 vout3 vout4
+.save vout5 vout6 vout7 vout8 vout9 vout10 vout11
+.save vout12 vout13 vout14 vout15 vout16 vout17 vout18
+.save vout19
+
+
+
+.lib ~/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.GLOBAL VDD
+** flattened .save nodes
+.save vclk vreset vout0 vout1 vout2 vout3 vout4
+.save vout5 vout6 vout7 vout8 vout9 vout10 vout11
+.save vout12 vout13 vout14 vout15 vout16 vout17 vout18
+.save vout19
+.end

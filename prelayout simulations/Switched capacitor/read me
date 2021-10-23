@@ -1,0 +1,2 @@
+This is the prelayout simulation of a capacitor and transmission gate in series.
+AC simulation is done and the cutoff frequency is measured and the capacitance value is calulated and found to to be close to 80pf

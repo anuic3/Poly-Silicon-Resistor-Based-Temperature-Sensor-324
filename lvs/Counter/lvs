@@ -1,0 +1,8 @@
+setupFile=~/open_pdks/sky130/sky130A/libs.tech/netgen/sky130A_setup.tcl
+
+schematicSpice=$1
+layoutSpice=$2
+
+netgen -noc << EOF
+lvs $schematicSpice $layoutSpice $setupFile lvsReport.out
+EOF

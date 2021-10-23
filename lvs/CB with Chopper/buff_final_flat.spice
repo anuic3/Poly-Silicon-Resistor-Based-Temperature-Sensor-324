@@ -1,0 +1,105 @@
+* SPICE3 file created from buff_final_flat.ext - technology: sky130A
+
+X0 outn2 Fvco_By4_QPH outnch1 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.58e+06u as=5.8e+11p ps=4.38667e+06u w=2e+06u l=150000u
+X1 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X2 VDD VDD VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=1.45e+12p pd=1.058e+07u as=1.45e+12p ps=1.058e+07u w=5e+06u l=1e+06u M=4
+X3 outnch2 Fvco_By4_QPH_bar outn1 GND sky130_fd_pr__nfet_01v8 ad=1.98421e+11p pd=1.49053e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X4 outp1 Fvco_By4_QPH outpch1 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X5 outnch2 vinnch2 a_2928_8082# GND sky130_fd_pr__nfet_01v8_lvt ad=7.93684e+11p pd=5.96211e+06u as=7.73333e+11p ps=5.72e+06u w=4e+06u l=1e+06u M=9
+X6 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X7 outnch1 vinnch1 a_2928_8082# GND sky130_fd_pr__nfet_01v8_lvt ad=7.93684e+11p pd=5.96211e+06u as=7.73333e+11p ps=5.72e+06u w=4e+06u l=1e+06u M=9
+X8 vinp1 Fvco_By4_QPH vinpch2 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.38667e+06u as=5.8e+11p ps=4.33143e+06u w=2e+06u l=150000u
+X9 vinnch2 Fvco_By4_QPH_bar vinn2 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.58e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=150000u
+X10 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X11 vinpch1 Fvco_By4_QPH_bar vinp2 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X12 outpch1 vinp1 a_n4372_3570# VDD sky130_fd_pr__pfet_01v8_lvt ad=9.32143e+11p pd=7.05e+06u as=1.45e+12p ps=1.058e+07u w=5e+06u l=1e+06u M=2
+X13 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X14 VDD a_2014_8080# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X15 GND GND GND GND sky130_fd_pr__nfet_01v8_lvt ad=4.06e+12p pd=2.93097e+07u as=4.06e+12p ps=2.93097e+07u w=1.4e+07u l=1e+06u M=2
+X16 vinp2 Fvco_By4_QPH vinpch2 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X17 vinnch1 Fvco_By4_QPH_bar vinn1 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.58e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=150000u
+X18 outn1 Fvco_By4_QPH outnch2 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.58e+06u as=5.8e+11p ps=4.38667e+06u w=2e+06u l=150000u
+X19 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X20 a_n2268_8398# a_2014_8716# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X21 GND GND GND GND sky130_fd_pr__nfet_01v8_lvt ad=2.9e+11p pd=2.09355e+06u as=2.9e+11p ps=2.09355e+06u w=1e+06u l=1e+06u M=2
+X22 vinn2 Fvco_By4_QPH vinnch2 GND sky130_fd_pr__nfet_01v8 ad=2.07143e+11p pd=1.67714e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X23 vinn2 Fvco_By4_QPH vinnch1 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.58e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=150000u
+X24 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X25 outpch2 vbiasot GND GND sky130_fd_pr__nfet_01v8_lvt ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.09355e+06u w=1e+06u l=4e+06u
+X26 outpch2 vinp2 a_n4372_3570# VDD sky130_fd_pr__pfet_01v8_lvt ad=9.32143e+11p pd=7.05e+06u as=1.45e+12p ps=1.058e+07u w=5e+06u l=1e+06u M=2
+X27 a_2928_8082# a_7210_8082# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X28 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X29 GND a_7210_8082# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X30 outnch1 vbiasob a_2014_8716# VDD sky130_fd_pr__pfet_01v8_lvt ad=1.45e+12p pd=1.09667e+07u as=1.45e+12p ps=1.058e+07u w=5e+06u l=2e+06u
+X31 outnch1 Fvco_By4_QPH_bar outn1 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.38667e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=150000u
+X32 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X33 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X34 vinn1 Fvco_By4_QPH vinnch1 GND sky130_fd_pr__nfet_01v8 ad=2.07143e+11p pd=1.67714e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X35 VDD a_2014_7126# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X36 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X37 a_2702_3276# VDD GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X38 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X39 outp2 Fvco_By4_QPH outpch2 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X40 outp1 Fvco_By4_QPH outpch2 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.58e+06u as=3.72857e+11p ps=2.82e+06u w=2e+06u l=150000u
+X41 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X42 outnch1 Fvco_By4_QPH_bar outn2 GND sky130_fd_pr__nfet_01v8 ad=1.98421e+11p pd=1.49053e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X43 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X44 a_2928_7446# a_7148_3156# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X45 Bout outn2 vinn2 GND sky130_fd_pr__nfet_01v8_lvt ad=3.86667e+11p pd=3.05333e+06u as=4.14286e+11p ps=3.35429e+06u w=2e+06u l=1e+06u M=6
+X46 Bout_mirror outp1 vinpch1 VDD sky130_fd_pr__pfet_01v8_lvt ad=1.45e+12p pd=1.058e+07u as=9.32143e+11p ps=7.05e+06u w=5e+06u l=1e+06u M=2
+X47 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X48 Bout outp2 vinpch2 VDD sky130_fd_pr__pfet_01v8_lvt ad=7.25e+11p pd=5.29e+06u as=1.45e+12p ps=1.08286e+07u w=5e+06u l=1e+06u M=2
+X49 vinp2 Fvco_By4_QPH vinpch1 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.38667e+06u as=3.72857e+11p ps=2.82e+06u w=2e+06u l=150000u
+X50 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X51 outp2 Fvco_By4_QPH outpch1 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.58e+06u as=3.72857e+11p ps=2.82e+06u w=2e+06u l=150000u
+X52 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X53 VDD a_2014_7126# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X54 outnch2 vbiasob a_7148_3156# VDD sky130_fd_pr__pfet_01v8_lvt ad=1.45e+12p pd=1.09667e+07u as=1.45e+12p ps=1.058e+07u w=5e+06u l=2e+06u
+X55 vinpch1 Fvco_By4_QPH_bar vinp1 VDD sky130_fd_pr__pfet_01v8 ad=3.72857e+11p pd=2.82e+06u as=5.8e+11p ps=4.38667e+06u w=2e+06u l=150000u
+X56 vinnch1 Bout_mirror a_1459_330# GND sky130_fd_pr__nfet_01v8_lvt ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=2e+06u
+X57 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X58 vinpch2 Fvco_By4_QPH_bar vinp1 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X59 outpch2 Fvco_By4_QPH_bar outp2 VDD sky130_fd_pr__pfet_01v8 ad=3.72857e+11p pd=2.82e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=150000u
+X60 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X61 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X62 outnch2 Fvco_By4_QPH_bar outn2 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.38667e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=150000u
+X63 vinp2 vbiaschopper a_2702_3276# VDD sky130_fd_pr__pfet_01v8_lvt ad=1.45e+12p pd=1.09667e+07u as=1.45e+12p ps=1.058e+07u w=5e+06u l=1e+06u
+X64 vinp1 vbiaschopper a_908_3302# VDD sky130_fd_pr__pfet_01v8_lvt ad=1.45e+12p pd=1.09667e+07u as=1.45e+12p ps=1.058e+07u w=5e+06u l=1e+06u
+X65 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X66 vinnch2 Bout_mirror a_n2268_6490# GND sky130_fd_pr__nfet_01v8_lvt ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=2e+06u
+X67 a_n2268_8398# a_2014_8080# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X68 a_2928_7446# a_7210_7128# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X69 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X70 a_n2268_6490# GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X71 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X72 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X73 a_n4372_3570# a_2014_7126# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X74 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X75 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X76 a_1459_330# GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X77 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X78 GND a_7210_8082# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X79 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X80 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X81 outpch2 Fvco_By4_QPH_bar outp1 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X82 Bout_mirror outn1 vinn1 GND sky130_fd_pr__nfet_01v8_lvt ad=3.86667e+11p pd=3.05333e+06u as=4.14286e+11p ps=3.35429e+06u w=2e+06u l=1e+06u M=6
+X83 VDD a_7210_7128# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X84 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X85 outpch1 vbiasot GND GND sky130_fd_pr__nfet_01v8_lvt ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.09355e+06u w=1e+06u l=4e+06u
+X86 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X87 VDD a_908_3302# GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X88 vinnch1 Fvco_By4_QPH_bar vinn2 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.07143e+11p ps=1.67714e+06u w=1e+06u l=150000u
+X89 vinp1 Fvco_By4_QPH vinpch1 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X90 vinn1 Fvco_By4_QPH vinnch2 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.58e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=150000u
+X91 outpch1 Fvco_By4_QPH_bar outp1 VDD sky130_fd_pr__pfet_01v8 ad=3.72857e+11p pd=2.82e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=150000u
+X92 a_n2268_6490# GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X93 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X94 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X95 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X96 outpch1 Fvco_By4_QPH_bar outp2 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+X97 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X98 outn2 Fvco_By4_QPH outnch2 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=1.98421e+11p ps=1.49053e+06u w=1e+06u l=150000u
+X99 outn1 Fvco_By4_QPH outnch1 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=1.98421e+11p ps=1.49053e+06u w=1e+06u l=150000u
+X100 vinpch2 Fvco_By4_QPH_bar vinp2 VDD sky130_fd_pr__pfet_01v8 ad=5.8e+11p pd=4.33143e+06u as=5.8e+11p ps=4.38667e+06u w=2e+06u l=150000u
+X101 a_1459_330# GND GND sky130_fd_pr__res_xhigh_po_0p35 l=1.925e+07u
+X102 vinnch2 Fvco_By4_QPH_bar vinn1 GND sky130_fd_pr__nfet_01v8 ad=2.9e+11p pd=2.58e+06u as=2.07143e+11p ps=1.67714e+06u w=1e+06u l=150000u

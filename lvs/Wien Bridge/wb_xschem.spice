@@ -1,0 +1,14 @@
+**.subckt wb
+XR1 Top_1 vbias1 GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+XC1 Top_1 Bot_1 sky130_fd_pr__cap_mim_m3_1 W=50 L=47 MF=1 m=1
+XR2 Top_2 vbias2 GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+XC2 Top_2 Bot_2 sky130_fd_pr__cap_mim_m3_1 W=50 L=47 MF=1 m=1
+XC3 Bot_1 Bot_2 sky130_fd_pr__cap_mim_m3_1 W=25 L=47 MF=1 m=1
+XR3 vinp2 Bot_1 GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+XR4 vinp1 Bot_2 GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+XR5 GND GND GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+XC4 GND GND sky130_fd_pr__cap_mim_m3_1 W=50 L=47 MF=1 m=1
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

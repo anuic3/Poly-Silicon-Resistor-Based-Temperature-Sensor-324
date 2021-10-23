@@ -1,0 +1,3 @@
+This is the post layout simulation of "tran.sch".it is done with a transmission gate and a capacitance in series
+"extract.mag" is the layout done only with transmission gate and capacitance and 10meg resistace
+"extract.spice" is the spice file extracted from it

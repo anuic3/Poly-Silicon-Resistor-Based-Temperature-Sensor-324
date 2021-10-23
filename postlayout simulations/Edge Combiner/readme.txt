@@ -1,0 +1,3 @@
+-Postlayout extracted spice file for this block is included as 'postlay.spice' and 'postlay.jpg' is the output screenshot after executing the spice file
+-With the same testbench as that of the schematic(9 ideal continous pulse sources each one delayed by 55ns from other) n1-n9, the output is taken from vout.
+-The output can be seen having 9 pulses in one input pulse duration thus verifying the block's operation.

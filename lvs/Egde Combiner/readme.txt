@@ -1,0 +1,3 @@
+- The results for the 'edge combiner' block are included here. 
+- The 'edgecomb.spice' is the netlist version of the schematic and the 'nand.spice' is the postlayout extracted spice file for the same. The LVS results are logged into 'comp.out' file 
+- We see that the netlists and circuits match uniquely from the comp.out. There are property errors and those are due to the additional information presented by schematic file which are not given by the layout file.

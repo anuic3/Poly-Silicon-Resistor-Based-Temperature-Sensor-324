@@ -1,0 +1,39 @@
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__dfrbp_1        |Circuit 2: sky130_fd_sc_hd__dfrbp_1        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (16)           |sky130_fd_pr__pfet_01v8_hvt (16)           
+sky130_fd_pr__nfet_01v8 (16)               |sky130_fd_pr__nfet_01v8 (16)               
+Number of devices: 32                      |Number of devices: 32                      
+Number of nets: 21                         |Number of nets: 21                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__dfrbp_1        |Circuit 2: sky130_fd_sc_hd__dfrbp_1        
+-------------------------------------------|-------------------------------------------
+RESET_B                                    |RESET_B                                    
+VGND                                       |VNB **Mismatch**                           
+VPWR                                       |VPB **Mismatch**                           
+CLK                                        |CLK                                        
+Q_N                                        |Q_N                                        
+D                                          |D                                          
+Q                                          |Q                                          
+---------------------------------------------------------------------------------------
+Cell pin lists for sky130_fd_sc_hd__dfrbp_1 and sky130_fd_sc_hd__dfrbp_1 altered to match.
+
+Subcircuit summary:
+Circuit 1: 20bitCounter_fromSchematic.spic |Circuit 2: 20bitCounter_fromLayout.spice   
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__dfrbp_1 (20)              |sky130_fd_sc_hd__dfrbp_1 (20)              
+Number of devices: 20                      |Number of devices: 20                      
+Number of nets: 44                         |Number of nets: 44                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes 20bitCounter_fromSchematic.spice and 20bitCounter_fromLayout.spice are equivalent.
+Circuits match uniquely.

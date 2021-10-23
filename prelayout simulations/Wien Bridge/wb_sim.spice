@@ -1,0 +1,25 @@
+**.subckt wb
+XR1 Top_1 vbias1 GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+XC1 Top_1 Bot_1 sky130_fd_pr__cap_mim_m3_1 W=50 L=47 MF=1 m=1
+XR2 Top_2 vbias2 GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+XC2 Top_2 Bot_2 sky130_fd_pr__cap_mim_m3_1 W=50 L=47 MF=1 m=1
+XC3 Bot_1 Bot_2 sky130_fd_pr__cap_mim_m3_1 W=25 L=47 MF=1 m=1
+XR3 GND Bot_1 GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+XR4 GND Bot_2 GND sky130_fd_pr__res_xhigh_po_0p35 L=23.625 mult=1 m=1
+V1 vbias1 vbias2 ac=1
+**** begin user architecture code
+
+
+.lib /home/cegrahul/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.ac dec 1000 1k 100meg
+.control
+run
+plot db(v(Bot_1))
+meas ac centre max v(Bot_1)
+.endc
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

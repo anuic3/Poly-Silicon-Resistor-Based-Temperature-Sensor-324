@@ -1,0 +1,17 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=Xcap"}
+V {}
+S {}
+E {}
+L 19 2420 -570 2440 -570 {}
+L 19 2420 -550 2440 -550 {}
+L 19 2430 -600 2430 -570 {}
+L 19 2430 -550 2430 -530 {}
+L 19 2430 -540 2430 -520 {}
+B 5 2427.5 -602.5 2432.5 -597.5 {name=top_80p
+dir=inout}
+B 5 2427.5 -522.5 2432.5 -517.5 {name=bot_80p
+dir=inout}

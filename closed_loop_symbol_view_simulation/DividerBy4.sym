@@ -1,0 +1,35 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=Xdiv1"}
+V {}
+S {}
+E {}
+L 19 7350 -660 7420 -660 {}
+L 19 7350 -520 7420 -520 {}
+L 19 7780 -680 7810 -680 {}
+L 19 7780 -620 7820 -620 {}
+L 19 7780 -560 7820 -560 {}
+L 19 7780 -500 7820 -500 {}
+L 19 7620 -790 7620 -760 {}
+L 19 7620 -440 7620 -410 {}
+L 19 7810 -680 7820 -680 {}
+B 5 7617.5 -792.5 7622.5 -787.5 {name=VDD
+dir=in}
+B 5 7617.5 -412.5 7622.5 -407.5 {name=GND
+dir=in}
+B 5 7347.5 -662.5 7352.5 -657.5 {name=clk
+dir=in}
+B 5 7347.5 -522.5 7352.5 -517.5 {name=vclear
+dir=in}
+B 5 7817.5 -682.5 7822.5 -677.5 {name=FvcoBy4_IPH
+dir=out}
+B 5 7817.5 -622.5 7822.5 -617.5 {name=FvcoBy4_IPH_bar
+dir=out}
+B 5 7817.5 -562.5 7822.5 -557.5 {name=FvcoBy4_QPH
+dir=out}
+B 5 7817.5 -502.5 7822.5 -497.5 {name=FvcoBy4_QPH_bar
+dir=out}
+B 19 7420 -760 7780 -440 {}
+T {Divider By4} 7510 -660 0 0 0.8 0.8 {}

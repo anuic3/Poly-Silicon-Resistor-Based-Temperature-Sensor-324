@@ -1,0 +1,102 @@
+* NGSPICE file created from 20bitCounter.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__dfrbp_1 CLK D Q Q_N RESET_B VNB VPB
+X0 a_805_47# a_761_289# a_639_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X1 VPB a_1283_21# a_1847_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=640000u l=150000u
+X2 a_1108_47# a_193_47# a_761_289# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=360000u l=150000u
+X3 a_1283_21# a_1108_47# a_1462_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X4 a_651_413# a_27_47# a_543_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X5 VNB RESET_B a_805_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X6 VPB CLK a_27_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=640000u l=150000u
+X7 Q_N a_1847_47# VNB VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=650000u l=150000u
+X8 a_448_47# D VPB VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X9 VNB a_1283_21# a_1847_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X10 a_761_289# a_543_47# VNB VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=640000u l=150000u
+X11 Q a_1283_21# VNB VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=650000u l=150000u
+X12 a_193_47# a_27_47# VNB VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X13 a_1108_47# a_27_47# a_761_289# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X14 a_543_47# a_27_47# a_448_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=360000u l=150000u
+X15 a_1462_47# RESET_B VNB VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X16 a_543_47# a_193_47# a_448_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X17 a_448_47# D VNB VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X18 VPB a_1283_21# a_1270_413# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X19 VPB a_1108_47# a_1283_21# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X20 a_193_47# a_27_47# VPB VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=640000u l=150000u
+X21 a_1270_413# a_193_47# a_1108_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X22 a_1283_21# RESET_B VPB VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X23 VPB a_761_289# a_651_413# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X24 a_639_47# a_193_47# a_543_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=360000u l=150000u
+X25 VNB a_1283_21# a_1217_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X26 Q_N a_1847_47# VPB VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+X27 VNB CLK a_27_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X28 a_761_289# a_543_47# VPB VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=840000u l=150000u
+X29 a_651_413# RESET_B VPB VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X30 Q a_1283_21# VPB VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=150000u
+X31 a_1217_47# a_27_47# a_1108_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=360000u l=150000u
+.ends
+
+
+* Top level circuit 20bitCounter
+
+Xsky130_fd_sc_hd__dfrbp_1_0[0] sky130_fd_sc_hd__dfrbp_1_0[0]/CLK sky130_fd_sc_hd__dfrbp_1_0[0]/D
++ sky130_fd_sc_hd__dfrbp_1_0[0]/Q sky130_fd_sc_hd__dfrbp_1_0[0]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[1] sky130_fd_sc_hd__dfrbp_1_0[0]/D sky130_fd_sc_hd__dfrbp_1_0[1]/D
++ sky130_fd_sc_hd__dfrbp_1_0[1]/Q sky130_fd_sc_hd__dfrbp_1_0[1]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[2] sky130_fd_sc_hd__dfrbp_1_0[1]/D sky130_fd_sc_hd__dfrbp_1_0[2]/D
++ sky130_fd_sc_hd__dfrbp_1_0[2]/Q sky130_fd_sc_hd__dfrbp_1_0[2]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[3] sky130_fd_sc_hd__dfrbp_1_0[2]/D sky130_fd_sc_hd__dfrbp_1_0[3]/D
++ sky130_fd_sc_hd__dfrbp_1_0[3]/Q sky130_fd_sc_hd__dfrbp_1_0[3]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[4] sky130_fd_sc_hd__dfrbp_1_0[3]/D sky130_fd_sc_hd__dfrbp_1_0[4]/D
++ sky130_fd_sc_hd__dfrbp_1_0[4]/Q sky130_fd_sc_hd__dfrbp_1_0[4]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[5] sky130_fd_sc_hd__dfrbp_1_0[4]/D sky130_fd_sc_hd__dfrbp_1_0[5]/D
++ sky130_fd_sc_hd__dfrbp_1_0[5]/Q sky130_fd_sc_hd__dfrbp_1_0[5]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[6] sky130_fd_sc_hd__dfrbp_1_0[5]/D sky130_fd_sc_hd__dfrbp_1_0[6]/D
++ sky130_fd_sc_hd__dfrbp_1_0[6]/Q sky130_fd_sc_hd__dfrbp_1_0[6]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[7] sky130_fd_sc_hd__dfrbp_1_0[6]/D sky130_fd_sc_hd__dfrbp_1_0[7]/D
++ sky130_fd_sc_hd__dfrbp_1_0[7]/Q sky130_fd_sc_hd__dfrbp_1_0[7]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[8] sky130_fd_sc_hd__dfrbp_1_0[7]/D sky130_fd_sc_hd__dfrbp_1_0[8]/D
++ sky130_fd_sc_hd__dfrbp_1_0[8]/Q sky130_fd_sc_hd__dfrbp_1_0[8]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[9] sky130_fd_sc_hd__dfrbp_1_0[8]/D sky130_fd_sc_hd__dfrbp_1_0[9]/D
++ sky130_fd_sc_hd__dfrbp_1_0[9]/Q sky130_fd_sc_hd__dfrbp_1_0[9]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[10] sky130_fd_sc_hd__dfrbp_1_0[9]/D sky130_fd_sc_hd__dfrbp_1_0[10]/D
++ sky130_fd_sc_hd__dfrbp_1_0[10]/Q sky130_fd_sc_hd__dfrbp_1_0[10]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[11] sky130_fd_sc_hd__dfrbp_1_0[10]/D sky130_fd_sc_hd__dfrbp_1_0[11]/D
++ sky130_fd_sc_hd__dfrbp_1_0[11]/Q sky130_fd_sc_hd__dfrbp_1_0[11]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[12] sky130_fd_sc_hd__dfrbp_1_0[11]/D sky130_fd_sc_hd__dfrbp_1_0[12]/D
++ sky130_fd_sc_hd__dfrbp_1_0[12]/Q sky130_fd_sc_hd__dfrbp_1_0[12]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[13] sky130_fd_sc_hd__dfrbp_1_0[12]/D sky130_fd_sc_hd__dfrbp_1_0[13]/D
++ sky130_fd_sc_hd__dfrbp_1_0[13]/Q sky130_fd_sc_hd__dfrbp_1_0[13]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[14] sky130_fd_sc_hd__dfrbp_1_0[13]/D sky130_fd_sc_hd__dfrbp_1_0[14]/D
++ sky130_fd_sc_hd__dfrbp_1_0[14]/Q sky130_fd_sc_hd__dfrbp_1_0[14]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[15] sky130_fd_sc_hd__dfrbp_1_0[14]/D sky130_fd_sc_hd__dfrbp_1_0[15]/D
++ sky130_fd_sc_hd__dfrbp_1_0[15]/Q sky130_fd_sc_hd__dfrbp_1_0[15]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[16] sky130_fd_sc_hd__dfrbp_1_0[15]/D sky130_fd_sc_hd__dfrbp_1_0[16]/D
++ sky130_fd_sc_hd__dfrbp_1_0[16]/Q sky130_fd_sc_hd__dfrbp_1_0[16]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[17] sky130_fd_sc_hd__dfrbp_1_0[16]/D sky130_fd_sc_hd__dfrbp_1_0[17]/D
++ sky130_fd_sc_hd__dfrbp_1_0[17]/Q sky130_fd_sc_hd__dfrbp_1_0[17]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[18] sky130_fd_sc_hd__dfrbp_1_0[17]/D sky130_fd_sc_hd__dfrbp_1_0[18]/D
++ sky130_fd_sc_hd__dfrbp_1_0[18]/Q sky130_fd_sc_hd__dfrbp_1_0[18]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__dfrbp_1_0[19] sky130_fd_sc_hd__dfrbp_1_0[18]/D sky130_fd_sc_hd__dfrbp_1_0[19]/D
++ sky130_fd_sc_hd__dfrbp_1_0[19]/Q sky130_fd_sc_hd__dfrbp_1_0[19]/D sky130_fd_sc_hd__dfrbp_1_0[9]/RESET_B
++ VSUBS sky130_fd_sc_hd__dfrbp_1_0[9]/VPB sky130_fd_sc_hd__dfrbp_1
+.end
+

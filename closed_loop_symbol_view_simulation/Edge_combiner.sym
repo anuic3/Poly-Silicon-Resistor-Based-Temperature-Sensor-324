@@ -1,0 +1,47 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=Xedg1"}
+V {}
+S {}
+E {}
+L 19 5440 120 5480 120 {}
+L 19 5440 160 5480 160 {}
+L 19 5440 200 5480 200 {}
+L 19 5440 240 5480 240 {}
+L 19 5440 280 5480 280 {}
+L 19 5440 320 5480 320 {}
+L 19 5440 360 5480 360 {}
+L 19 5440 400 5480 400 {}
+L 19 5440 440 5480 440 {}
+L 19 5600 80 5600 100 {}
+L 19 5600 460 5600 480 {}
+L 19 5710 270 5730 270 {}
+B 5 5437.5 117.5 5442.5 122.5 {name=FvcoBUF1
+dir=in}
+B 5 5437.5 157.5 5442.5 162.5 {name=FvcoBUF2
+dir=in}
+B 5 5437.5 197.5 5442.5 202.5 {name=FvcoBUF3
+dir=in}
+B 5 5437.5 237.5 5442.5 242.5 {name=FvcoBUF4
+dir=in}
+B 5 5437.5 277.5 5442.5 282.5 {name=FvcoBUF5
+dir=in}
+B 5 5437.5 317.5 5442.5 322.5 {name=FvcoBUF6
+dir=in}
+B 5 5437.5 357.5 5442.5 362.5 {name=FvcoBUF7
+dir=in}
+B 5 5437.5 397.5 5442.5 402.5 {name=FvcoBUF8
+dir=in}
+B 5 5437.5 437.5 5442.5 442.5 {name=FvcoBUF9
+dir=in}
+B 5 5597.5 77.5 5602.5 82.5 {name=VDD
+dir=in}
+B 5 5597.5 477.5 5602.5 482.5 {name=GND
+dir=in}
+B 5 5727.5 267.5 5732.5 272.5 {name=vout
+dir=out}
+B 19 5480 100 5710 460 {}
+T {Edge
+Combiner} 5500 260 0 0 0.8 0.8 {}

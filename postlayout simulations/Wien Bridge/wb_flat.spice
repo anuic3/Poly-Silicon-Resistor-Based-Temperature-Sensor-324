@@ -1,0 +1,237 @@
+* NGSPICE file created from wb_flat.ext - technology: sky130A
+
+X0 gnd.t41 gnd.t19 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X1 gnd.t39 gnd.t40 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X2 Top_1.t1 Bot_1.t3 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X3 gnd.t48 gnd.t49 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X4 gnd.t0 gnd.t1 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X5 Top_1.t2 Bot_1.t2 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X6 gnd.t38 gnd.t35 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X7 gnd.t36 gnd.t37 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X8 vinp1.t0 Bot_2.t0 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X9 Top_2.t1 Bot_2.t6 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X10 gnd.t34 gnd.t35 sky130_fd_pr__cap_mim_m3_1 l=2.413e+07u w=2.4e+07u
+X11 gnd.t32 gnd.t33 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X12 gnd.t30 gnd.t31 sky130_fd_pr__cap_mim_m3_1 l=2.413e+07u w=2.4e+07u
+X13 gnd.t44 gnd.t45 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X14 gnd.t2 gnd.t3 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X15 gnd.t28 gnd.t29 sky130_fd_pr__cap_mim_m3_1 l=2.416e+07u w=2.4e+07u
+X16 Top_2.t2 Bot_2.t5 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X17 Top_2.t3 Bot_2.t4 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X18 gnd.t26 gnd.t27 sky130_fd_pr__cap_mim_m3_1 l=2.413e+07u w=2.4e+07u
+X19 vinp2.t0 Bot_1.t4 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X20 gnd.t56 gnd.t57 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X21 gnd.t50 gnd.t51 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X22 gnd.t24 gnd.t25 sky130_fd_pr__cap_mim_m3_1 l=2.413e+07u w=2.4e+07u
+X23 gnd.t22 gnd.t23 sky130_fd_pr__cap_mim_m3_1 l=2.413e+07u w=2.4e+07u
+X24 gnd.t54 gnd.t55 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X25 Bot_1.t5 Bot_2.t2 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X26 gnd.t20 gnd.t21 sky130_fd_pr__cap_mim_m3_1 l=2.413e+07u w=2.4e+07u
+X27 Top_1.t0 vbias1.t0 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X28 gnd.t18 gnd.t19 sky130_fd_pr__cap_mim_m3_1 l=2.413e+07u w=2.4e+07u
+X29 gnd.t16 gnd.t17 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X30 gnd.t52 gnd.t53 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X31 gnd.t14 gnd.t15 sky130_fd_pr__cap_mim_m3_1 l=2.413e+07u w=2.4e+07u
+X32 gnd.t46 gnd.t47 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X33 gnd.t12 gnd.t13 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X34 gnd.t42 gnd.t43 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X35 Top_2.t4 Bot_2.t3 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X36 gnd.t10 gnd.t11 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X37 Top_1.t3 Bot_1.t1 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X38 Top_2.t0 vbias2.t0 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X39 gnd.t8 gnd.t9 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X40 Top_1.t4 Bot_1.t0 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X41 Bot_1.t6 Bot_2.t1 sky130_fd_pr__cap_mim_m3_1 l=2.41e+07u w=2.4e+07u
+X42 gnd.t4 gnd.t5 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+X43 gnd.t6 gnd.t7 gnd sky130_fd_pr__res_xhigh_po_0p35 l=2.363e+07u
+C0 Top_1 Top_2 10.04fF
+C1 Top_1 Bot_2 3.69fF
+C2 Top_1 Bot_1 155.27fF
+C3 Bot_2 Top_2 117.98fF
+C4 Top_2 Bot_1 14.35fF
+C5 Bot_2 Bot_1 62.10fF
+R0 gnd.n41 gnd.n3 698.217
+R1 gnd.n41 gnd.n40 236.504
+R2 gnd.n25 gnd.t0 152.376
+R3 gnd.n11 gnd.t6 152.144
+R4 gnd.n35 gnd.t44 152.142
+R5 gnd.n10 gnd.t4 152.141
+R6 gnd.n10 gnd.t42 152.141
+R7 gnd.n10 gnd.t48 152.141
+R8 gnd.n8 gnd.t46 152.141
+R9 gnd.n19 gnd.t52 152.141
+R10 gnd.n25 gnd.t56 152.141
+R11 gnd.n32 gnd.t2 152.141
+R12 gnd.n36 gnd.t50 152.141
+R13 gnd.n34 gnd.t54 152.141
+R14 gnd.n7 gnd.t1 152
+R15 gnd.n9 gnd.t5 152
+R16 gnd.n15 gnd.t43 152
+R17 gnd.n13 gnd.t7 152
+R18 gnd.n15 gnd.t49 152
+R19 gnd.n21 gnd.t47 152
+R20 gnd.n23 gnd.t53 152
+R21 gnd.n27 gnd.t57 152
+R22 gnd.n5 gnd.t3 152
+R23 gnd.n4 gnd.t45 152
+R24 gnd.n39 gnd.t55 152
+R25 gnd.n39 gnd.t51 152
+R26 gnd gnd.n41 8.954
+R27 gnd.n26 gnd.n25 0.409
+R28 gnd.n12 gnd.n11 0.395
+R29 gnd.n22 gnd.n20 0.394
+R30 gnd.n38 gnd.n37 0.378
+R31 gnd.t18 gnd.t41 0.165
+R32 gnd.t12 gnd.t28 0.156
+R33 gnd.n18 gnd.n17 0.152
+R34 gnd.n0 gnd.t39 0.139
+R35 gnd.t28 gnd.t18 0.125
+R36 gnd.t24 gnd.t12 0.123
+R37 gnd.t41 gnd.t32 0.122
+R38 gnd.n1 gnd.n0 0.12
+R39 gnd.t8 gnd.t36 0.117
+R40 gnd.t36 gnd.t16 0.115
+R41 gnd.t34 gnd.n1 0.112
+R42 gnd.t30 gnd.t34 0.109
+R43 gnd.t26 gnd.t30 0.109
+R44 gnd.t22 gnd.t26 0.109
+R45 gnd.t20 gnd.t22 0.109
+R46 gnd.t14 gnd.t20 0.109
+R47 gnd.t24 gnd.t14 0.109
+R48 gnd.t32 gnd.t8 0.107
+R49 gnd.n29 gnd.n28 0.094
+R50 gnd.n25 gnd.n24 0.089
+R51 gnd.n3 gnd.t24 0.069
+R52 gnd.t13 gnd.t29 0.05
+R53 gnd.t9 gnd.t37 0.049
+R54 gnd.t21 gnd.t23 0.049
+R55 gnd.t15 gnd.t21 0.049
+R56 gnd.t25 gnd.t15 0.049
+R57 gnd.t31 gnd.t35 0.048
+R58 gnd.t23 gnd.t27 0.048
+R59 gnd.t19 gnd.t33 0.043
+R60 gnd.t27 gnd.t31 0.043
+R61 gnd.t17 gnd.n2 0.04
+R62 gnd.t29 gnd.t19 0.039
+R63 gnd.n3 gnd.t25 0.038
+R64 gnd.t37 gnd.t17 0.038
+R65 gnd.t33 gnd.t9 0.038
+R66 gnd.t25 gnd.t13 0.027
+R67 gnd.t35 gnd.t11 0.023
+R68 gnd.n14 gnd.n12 0.018
+R69 gnd.n17 gnd.n16 0.018
+R70 gnd.n30 gnd.n29 0.017
+R71 gnd.n39 gnd.n38 0.017
+R72 gnd.n37 gnd.n36 0.016
+R73 gnd.n40 gnd.n39 0.016
+R74 gnd.n28 gnd.n27 0.014
+R75 gnd.n20 gnd.n19 0.013
+R76 gnd.n24 gnd.n23 0.013
+R77 gnd.n6 gnd.n5 0.003
+R78 gnd.n23 gnd.n22 0.003
+R79 gnd.n19 gnd.n18 0.003
+R80 gnd.n36 gnd.n35 0.002
+R81 gnd.n1 gnd.t38 0.002
+R82 gnd.n27 gnd.n26 0.002
+R83 gnd.n0 gnd.t10 0.002
+R84 gnd.n33 gnd.n32 0.001
+R85 gnd.n36 gnd.n33 0.001
+R86 gnd.n6 gnd.n4 0.001
+R87 gnd.n39 gnd.n6 0.001
+R88 gnd.n14 gnd.n13 0.001
+R89 gnd.n15 gnd.n14 0.001
+R90 gnd.n18 gnd.n8 0.001
+R91 gnd.n22 gnd.n21 0.001
+R92 gnd.n36 gnd.n30 0.001
+R93 gnd.n26 gnd.n7 0.001
+R94 gnd.n2 gnd.t40 0.001
+R95 gnd.n16 gnd.n15 0.001
+R96 gnd.n16 gnd.n9 0.001
+R97 gnd.n35 gnd.n34 0.001
+R98 gnd.n11 gnd.n10 0.001
+R99 gnd.n32 gnd.n31 0.001
+R100 Top_1.n1 Top_1.t0 11.463
+R101 Top_1.n1 Top_1.n0 1.048
+R102 Top_1 Top_1.n2 0.883
+R103 Top_1.n2 Top_1.t3 0.75
+R104 Top_1.n0 Top_1.t4 0.484
+R105 Top_1.n2 Top_1.t1 0.28
+R106 Top_1.n0 Top_1.t2 0.191
+R107 Top_1 Top_1.n1 0.08
+R108 Bot_1.n1 Bot_1.t4 7.523
+R109 Bot_1.n2 Bot_1.t1 3.01
+R110 Bot_1.n0 Bot_1.t2 1.86
+R111 Bot_1.n3 Bot_1.t6 1.743
+R112 Bot_1.n1 Bot_1.n0 1.672
+R113 Bot_1 Bot_1.n3 1.02
+R114 Bot_1.n2 Bot_1.t3 0.778
+R115 Bot_1.n0 Bot_1.t0 0.727
+R116 Bot_1.n3 Bot_1.n2 0.166
+R117 Bot_1 Bot_1.n1 0.073
+R118 Bot_1.t6 Bot_1.t5 0.037
+R119 vinp1 vinp1.t0 2.411
+R120 Bot_2.n2 Bot_2.t0 95.488
+R121 Bot_2.n1 Bot_2.t6 52.208
+R122 Bot_2.n3 Bot_2.n2 13.658
+R123 Bot_2.n2 Bot_2.t1 4.572
+R124 Bot_2.n0 Bot_2.t3 2.839
+R125 Bot_2.n1 Bot_2.t4 1.482
+R126 Bot_2 Bot_2.n0 0.872
+R127 Bot_2.n0 Bot_2.t5 0.7
+R128 Bot_2 Bot_2.n3 0.466
+R129 Bot_2.n3 Bot_2.n1 0.15
+R130 Bot_2.t1 Bot_2.t2 0.049
+R131 Top_2.n2 Top_2.t0 61.061
+R132 Top_2 Top_2.n0 1.143
+R133 Top_2 Top_2.n2 0.717
+R134 Top_2.n0 Top_2.t4 0.695
+R135 Top_2.n2 Top_2.n1 0.488
+R136 Top_2.n1 Top_2.t1 0.42
+R137 Top_2.n1 Top_2.t3 0.252
+R138 Top_2.n0 Top_2.t2 0.234
+R139 vinp2 vinp2.t0 2.337
+R140 vbias1 vbias1.t0 0.641
+R141 vbias2 vbias2.t0 76.675
+C6 vinp2 gnd 3.21fF $ **FLOATING
+C7 Bot_1 gnd 325.92fF $ **FLOATING
+C8 vinp1 gnd 3.25fF $ **FLOATING
+C9 Bot_2 gnd 410.15fF $ **FLOATING
+C10 Top_1 gnd 103.26fF $ **FLOATING
+C11 Top_2 gnd 210.00fF $ **FLOATING
+C12 vinp2.t0 gnd 2.05fF
+C13 Top_2.t4 gnd 37.50fF
+C14 Top_2.t2 gnd 26.50fF
+C15 Top_2.n0 gnd 42.93fF $ **FLOATING
+C16 Top_2.t3 gnd 25.11fF
+C17 Top_2.t1 gnd 31.05fF
+C18 Top_2.n1 gnd 32.92fF $ **FLOATING
+C19 Top_2.n2 gnd 32.47fF $ **FLOATING
+C20 Bot_2.t5 gnd 40.69fF
+C21 Bot_2.t3 gnd 63.26fF
+C22 Bot_2.n0 gnd 66.39fF $ **FLOATING
+C23 Bot_2.t6 gnd 33.24fF
+C24 Bot_2.t4 gnd 51.53fF
+C25 Bot_2.n1 gnd 55.14fF $ **FLOATING
+C26 Bot_2.t2 gnd 34.73fF
+C27 Bot_2.t1 gnd 37.76fF
+C28 Bot_2.t0 gnd 3.20fF
+C29 Bot_2.n2 gnd 13.52fF $ **FLOATING
+C30 Bot_2.n3 gnd 32.71fF $ **FLOATING
+C31 vinp1.t0 gnd 2.10fF
+C32 Bot_1.t0 gnd 38.55fF
+C33 Bot_1.t2 gnd 47.45fF
+C34 Bot_1.n0 gnd 54.91fF $ **FLOATING
+C35 Bot_1.n1 gnd 38.99fF $ **FLOATING
+C36 Bot_1.t1 gnd 66.96fF
+C37 Bot_1.t3 gnd 45.00fF
+C38 Bot_1.n2 gnd 47.42fF $ **FLOATING
+C39 Bot_1.t5 gnd 34.27fF
+C40 Bot_1.t6 gnd 66.36fF
+C41 Bot_1.n3 gnd 72.97fF $ **FLOATING
+C42 Top_1.t2 gnd 29.24fF
+C43 Top_1.t4 gnd 36.09fF
+C44 Top_1.n0 gnd 31.94fF $ **FLOATING
+C45 Top_1.n1 gnd 19.11fF $ **FLOATING
+C46 Top_1.t3 gnd 49.48fF
+C47 Top_1.t1 gnd 35.94fF
+C48 Top_1.n2 gnd 41.06fF $ **FLOATING

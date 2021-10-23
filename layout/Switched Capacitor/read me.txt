@@ -1,0 +1,5 @@
+This layout contains two 80pf capacitance.MOSFET is used.W/L of MOS is 7/8.Multiplier of 200(fingers=20 and multiplier=10)
+m1 metal is used to short source,drain and body to vdd.
+li is used to connect the gate terminals.
+Switches are desiged using transmission gates.PMOS size is 2/0.15.NMOS size is 1/0.15.4 switches are used
+The layout is routed according to the schematic

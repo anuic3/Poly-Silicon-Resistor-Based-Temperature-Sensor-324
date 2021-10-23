@@ -1,0 +1,2 @@
+- The layout of the 'edge combiner' block is included here as 'edge.mag'
+- It is a flattened version of nine 2-input nand gate and a 9-input nand gate.

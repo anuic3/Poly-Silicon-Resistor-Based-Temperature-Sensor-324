@@ -1,0 +1,3 @@
+The entire schematic of the switched capacitor is in the file name "Switchedcapacitor.sch".
+80pf capacitance is used for the design."tran.sch" is used to check whether the used MOSFET is giving the capacitance as expected.
+AC simulation is done (RC circuit) and a current source is used as input and done the simulation got the expected results 

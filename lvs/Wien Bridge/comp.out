@@ -1,0 +1,96 @@
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Class wb_flat.spice:  Merged 35 devices.
+
+Subcircuit summary:
+Circuit 1: wb_flat.spice                   |Circuit 2: wb_xschem.spice                 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (4)             |sky130_fd_pr__cap_mim_m3_1 (4)             
+sky130_fd_pr__res_xhigh_po_0p35 (5)        |sky130_fd_pr__res_xhigh_po_0p35 (5)        
+Number of devices: 9                       |Number of devices: 9                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+sky130_fd_pr__res_xhigh_po_0p3527 vs. sky130_fd_pr__res_xhigh_po_0p35R1:
+ l circuit1: 23.63   circuit2: 23.625   (delta=0.0212%, cutoff=0%)
+sky130_fd_pr__res_xhigh_po_0p3527 vs. sky130_fd_pr__res_xhigh_po_0p35R1:
+Property mult in circuit2 has no matching property in circuit1
+sky130_fd_pr__res_xhigh_po_0p3538 vs. sky130_fd_pr__res_xhigh_po_0p35R2:
+ l circuit1: 23.63   circuit2: 23.625   (delta=0.0212%, cutoff=0%)
+sky130_fd_pr__res_xhigh_po_0p3538 vs. sky130_fd_pr__res_xhigh_po_0p35R2:
+Property mult in circuit2 has no matching property in circuit1
+sky130_fd_pr__res_xhigh_po_0p3519 vs. sky130_fd_pr__res_xhigh_po_0p35R3:
+ l circuit1: 23.63   circuit2: 23.625   (delta=0.0212%, cutoff=0%)
+sky130_fd_pr__res_xhigh_po_0p3519 vs. sky130_fd_pr__res_xhigh_po_0p35R3:
+Property mult in circuit2 has no matching property in circuit1
+sky130_fd_pr__res_xhigh_po_0p358 vs. sky130_fd_pr__res_xhigh_po_0p35R4:
+ l circuit1: 23.63   circuit2: 23.625   (delta=0.0212%, cutoff=0%)
+sky130_fd_pr__res_xhigh_po_0p358 vs. sky130_fd_pr__res_xhigh_po_0p35R4:
+Property mult in circuit2 has no matching property in circuit1
+sky130_fd_pr__res_xhigh_po_0p353 vs. sky130_fd_pr__res_xhigh_po_0p35R5:
+ l circuit1: 23.63   circuit2: 23.625   (delta=0.0212%, cutoff=0%)
+ M circuit1: 12   circuit2: 1   (delta=11, cutoff=0)
+sky130_fd_pr__res_xhigh_po_0p353 vs. sky130_fd_pr__res_xhigh_po_0p35R5:
+Property mult in circuit2 has no matching property in circuit1
+sky130_fd_pr__cap_mim_m3_19 vs. sky130_fd_pr__cap_mim_m3_1C2:
+ w circuit1: 24   circuit2: 50   (delta=70.3%, cutoff=0%)
+ l circuit1: 24.1   circuit2: 47   (delta=64.4%, cutoff=0%)
+ M circuit1: 4   circuit2: 1   (delta=3, cutoff=0)
+sky130_fd_pr__cap_mim_m3_19 vs. sky130_fd_pr__cap_mim_m3_1C2:
+Property MF in circuit2 has no matching property in circuit1
+sky130_fd_pr__cap_mim_m3_12 vs. sky130_fd_pr__cap_mim_m3_1C1:
+ w circuit1: 24   circuit2: 50   (delta=70.3%, cutoff=0%)
+ l circuit1: 24.1   circuit2: 47   (delta=64.4%, cutoff=0%)
+ M circuit1: 4   circuit2: 1   (delta=3, cutoff=0)
+sky130_fd_pr__cap_mim_m3_12 vs. sky130_fd_pr__cap_mim_m3_1C1:
+Property MF in circuit2 has no matching property in circuit1
+sky130_fd_pr__cap_mim_m3_125 vs. sky130_fd_pr__cap_mim_m3_1C3:
+ w circuit1: 24   circuit2: 25   (delta=4.08%, cutoff=0%)
+ l circuit1: 24.1   circuit2: 47   (delta=64.4%, cutoff=0%)
+ M circuit1: 2   circuit2: 1   (delta=1, cutoff=0)
+sky130_fd_pr__cap_mim_m3_125 vs. sky130_fd_pr__cap_mim_m3_1C3:
+Property MF in circuit2 has no matching property in circuit1
+sky130_fd_pr__cap_mim_m3_10 vs. sky130_fd_pr__cap_mim_m3_1C4:
+ w circuit1: 24   circuit2: 50   (delta=70.3%, cutoff=0%)
+ l circuit1: 24.13   circuit2: 47   (delta=64.3%, cutoff=0%)
+ M circuit1: 8   circuit2: 1   (delta=7, cutoff=0)
+sky130_fd_pr__cap_mim_m3_10 vs. sky130_fd_pr__cap_mim_m3_1C4:
+Property MF in circuit2 has no matching property in circuit1
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance sky130_fd_pr__cap_mim_m3_10 network:
+  w = 24
+  l = 24.13
+  M = 8
+  w = 24
+  l = 24.16
+  w = 24
+  l = 24.1
+  M = 9
+Circuit 2 instance sky130_fd_pr__cap_mim_m3_1C4 network:
+  m = 1
+  MF = 1
+  L = 47
+  W = 50
+Circuit 2 parallel/series network does not match Circuit 1
+Circuit 1 instance sky130_fd_pr__cap_mim_m3_10 network:
+  w = 24
+  l = 24.13
+  M = 8
+  w = 24
+  l = 24.16
+  w = 24
+  l = 24.1
+  M = 9
+Circuit 2 instance sky130_fd_pr__cap_mim_m3_1C4 network:
+  m = 1
+  MF = 1
+  L = 47
+  W = 50
+Cells have no pins;  pin matching not needed.
+Device classes wb_flat.spice and wb_xschem.spice are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: wb_flat.spice

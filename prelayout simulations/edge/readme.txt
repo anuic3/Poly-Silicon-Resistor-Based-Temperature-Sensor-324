@@ -1,0 +1,4 @@
+-The main function of this block is to multiply the signal frequency by 9 by taking the nine delayed outputs of the VCO. 
+-The edgecombiner.sch and the edgesch.jpg are the schematic file and its view and edgecombiner.spice is the spice file extracted for the same.
+-The inputs to this block are the VCO's outputs, which are modelled by ideal pulse trains each one delayed by 55ns from other(vn1-vn9) each of 1MHZ frequency. the output is viewed at the node vout.
+-From the plot,we can see there are 9 pulses in one period, indicating output frequency is 9times larger than input.

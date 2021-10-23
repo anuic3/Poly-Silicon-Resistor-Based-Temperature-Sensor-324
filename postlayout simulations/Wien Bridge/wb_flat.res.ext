@@ -1,0 +1,338 @@
+scale 1000 1 500000
+rnode "vbias2.t0" 0 0 -1171 24808 0
+rnode "vbias2" 0 0 -1178 25364 0
+resist "vbias2" "vbias2.t0" 76.6751
+rnode "vbias1.t0" 0 0 -853 24808 0
+rnode "vbias1" 0 0 -842 25434 0
+resist "vbias1" "vbias1.t0" 0.641178
+rnode "vinp2.t0" 0 2052.62 -915 13404 0
+rnode "vinp2" 0 577.381 -168 12900 0
+resist "vinp2" "vinp2.t0" 2.33728
+rnode "Top_2.t4" 0 37498.7 12615 24679 0
+rnode "Top_2.t2" 0 26501.4 34755 25079 0
+rnode "Top_2.n0" 0 42933.3 34575 36047 0
+rnode "Top_2.t3" 0 25108.1 18365 20635 0
+rnode "Top_2.t1" 0 31045.4 29614 20889 0
+rnode "Top_2.n1" 0 32923.8 18501 9326 0
+rnode "Top_2.t0" 0 1696.25 -1171 20082 0
+rnode "Top_2.n2" 0 32467.9 27923 1125 0
+rnode "Top_2" 0 61095.1 49000 9040 0
+resist "Top_2.n0" "Top_2.t2" 0.23356
+resist "Top_2.n1" "Top_2.t3" 0.252
+resist "Top_2.n1" "Top_2.t1" 0.42
+resist "Top_2.n2" "Top_2.n1" 0.488
+resist "Top_2.n0" "Top_2.t4" 0.695
+resist "Top_2" "Top_2.n2" 0.717
+resist "Top_2" "Top_2.n0" 1.143
+resist "Top_2.n2" "Top_2.t0" 61.0614
+rnode "Bot_2.t5" 0 40694.9 35966 25108 0
+rnode "Bot_2.t3" 0 63264.2 13966 25108 0
+rnode "Bot_2.n0" 0 66389.5 37205 35298 0
+rnode "Bot_2.t6" 0 33236.8 30466 19608 0
+rnode "Bot_2.t4" 0 51525.5 19466 19608 0
+rnode "Bot_2.n1" 0 55142.1 30934 10306 0
+rnode "Bot_2.t2" 0 34731.9 24966 25108 0
+rnode "Bot_2.t1" 0 37763.2 24966 19608 0
+rnode "Bot_2.t0" 0 3199.36 -1197 18346 0
+rnode "Bot_2.n2" 0 13519.2 26512 3637 0
+rnode "Bot_2.n3" 0 32711.2 31281 3595 0
+rnode "Bot_2" 0 80872.1 46068 9984 0
+resist "Bot_2.t1" "Bot_2.t2" 0.049
+resist "Bot_2.n3" "Bot_2.n1" 0.150467
+resist "Bot_2" "Bot_2.n3" 0.466
+resist "Bot_2.n0" "Bot_2.t5" 0.700256
+resist "Bot_2" "Bot_2.n0" 0.871559
+resist "Bot_2.n1" "Bot_2.t4" 1.48247
+resist "Bot_2.n0" "Bot_2.t3" 2.83856
+resist "Bot_2.n2" "Bot_2.t1" 4.572
+resist "Bot_2.n3" "Bot_2.n2" 13.658
+resist "Bot_2.n1" "Bot_2.t6" 52.2081
+resist "Bot_2.n2" "Bot_2.t0" 95.4879
+rnode "vinp1.t0" 0 2101.65 -1233 13404 0
+rnode "vinp1" 0 578.355 -1922 12880 0
+resist "vinp1" "vinp1.t0" 2.41128
+rnode "Bot_1.t0" 0 38552.5 30466 25108 0
+rnode "Bot_1.t2" 0 47445.8 19466 25108 0
+rnode "Bot_1.n0" 0 54905.9 31920 34328 0
+rnode "Bot_1.t4" 0 183.724 -879 18346 0
+rnode "Bot_1.n1" 0 38990.6 860 19106 0
+rnode "Bot_1.t1" 0 66962.8 35966 19608 0
+rnode "Bot_1.t3" 0 44997.3 13966 19608 0
+rnode "Bot_1.n2" 0 47421.2 15016 8440 0
+rnode "Bot_1.t5" 0 34270.4 24615 23895 0
+rnode "Bot_1.t6" 0 66356.9 25412 20507 0
+rnode "Bot_1.n3" 0 72970.3 23992 3782 0
+rnode "Bot_1" 0 22292.6 856 17074 0
+resist "Bot_1.t6" "Bot_1.t5" 0.037
+resist "Bot_1" "Bot_1.n1" 0.073
+resist "Bot_1.n3" "Bot_1.n2" 0.166232
+resist "Bot_1.n0" "Bot_1.t0" 0.727
+resist "Bot_1.n2" "Bot_1.t3" 0.778
+resist "Bot_1" "Bot_1.n3" 1.01976
+resist "Bot_1.n1" "Bot_1.n0" 1.672
+resist "Bot_1.n3" "Bot_1.t6" 1.74308
+resist "Bot_1.n0" "Bot_1.t2" 1.86
+resist "Bot_1.n2" "Bot_1.t1" 3.01
+resist "Bot_1.n1" "Bot_1.t4" 7.52295
+rnode "Top_1.t2" 0 29243.9 18344 26001 0
+rnode "Top_1.t4" 0 36094.8 28925 26116 0
+rnode "Top_1.n0" 0 31937.9 18393 34316 0
+rnode "Top_1.t0" 0 196.498 -853 20082 0
+rnode "Top_1.n1" 0 19106.5 3164 19363 0
+rnode "Top_1.t3" 0 49481.9 35190 20923 0
+rnode "Top_1.t1" 0 35943.2 12740 20791 0
+rnode "Top_1.n2" 0 41059.7 13474 6410 0
+rnode "Top_1" 0 14595.5 3404 17130 0
+resist "Top_1" "Top_1.n1" 0.08
+resist "Top_1.n0" "Top_1.t2" 0.191
+resist "Top_1.n2" "Top_1.t1" 0.279561
+resist "Top_1.n0" "Top_1.t4" 0.483979
+resist "Top_1.n2" "Top_1.t3" 0.75
+resist "Top_1" "Top_1.n2" 0.883
+resist "Top_1.n1" "Top_1.n0" 1.048
+resist "Top_1.n1" "Top_1.t0" 11.4632
+rnode "gnd.t16" 0 0 37213 30609 0
+rnode "gnd.t36" 0 0 31698 30631 0
+rnode "gnd.t8" 0 0 26050 30609 0
+rnode "gnd.t32" 0 0 20912 30498 0
+rnode "gnd.t41" 0 0 15065 30410 0
+rnode "gnd.t18" 0 0 7134 29410 0
+rnode "gnd.t28" 0 0 7140 24986 0
+rnode "gnd.t12" 0 0 7140 19486 0
+rnode "gnd.t38" 0 0 40358 19469 0
+rnode "gnd.t39" 0 0 40092 30565 0
+rnode "gnd.t10" 0 0 40269 24098 0
+rnode "gnd.n0" 0 0 41045 22273 0
+rnode "gnd.n1" 0 0 41045 22273 0
+rnode "gnd.t34" 0 0 40140 13986 0
+rnode "gnd.t30" 0 0 34640 13986 0
+rnode "gnd.t26" 0 0 29140 13986 0
+rnode "gnd.t22" 0 0 23640 13986 0
+rnode "gnd.t20" 0 0 18140 13986 0
+rnode "gnd.t14" 0 0 12640 13986 0
+rnode "gnd.t24" 0 0 7140 13986 0
+rnode "gnd.t40" 0 0 41466 30608 0
+rnode "gnd.n2" 0 0 41342 28000 0
+rnode "gnd.t17" 0 0 35966 30608 0
+rnode "gnd.t37" 0 0 30466 30608 0
+rnode "gnd.t9" 0 0 24966 30608 0
+rnode "gnd.t33" 0 0 19466 30608 0
+rnode "gnd.t19" 0 0 14682 30697 0
+rnode "gnd.t29" 0 0 8386 25114 0
+rnode "gnd.t13" 0 0 8386 19608 0
+rnode "gnd.t11" 0 0 41466 25108 0
+rnode "gnd.t35" 0 0 41342 22566 0
+rnode "gnd.t31" 0 0 35905 16566 0
+rnode "gnd.t27" 0 0 30386 14017 0
+rnode "gnd.t23" 0 0 24896 16566 0
+rnode "gnd.t21" 0 0 19391 16566 0
+rnode "gnd.t15" 0 0 13867 16566 0
+rnode "gnd.t25" 0 0 8393 16566 0
+rnode "gnd.n3" 0 0 7063 10359 0
+rnode "gnd.t45" 0 0 -1195 6839 0
+rnode "gnd.n4" 0 0 -1198 6422 0
+rnode "gnd.t3" 0 0 -877 6839 0
+rnode "gnd.n5" 0 0 -877 6632 0
+rnode "gnd.n6" 0 0 -558 6650 0
+rnode "gnd.t55" 0 0 -1513 6839 0
+rnode "gnd.t50" 0 0 -559 11997 0
+rnode "gnd.t1" 0 0 -509 13609 0
+rnode "gnd.n7" 0 0 -509 13403 0
+rnode "gnd.t56" 0 0 -1535 18749 0
+rnode "gnd.t53" 0 0 -455 20055 0
+rnode "gnd.t52" 0 0 -455 25213 0
+rnode "gnd.t46" 0 0 -1527 25249 0
+rnode "gnd.n8" 0 0 -1526 25040 0
+rnode "gnd.t5" 0 0 -1579 27369 0
+rnode "gnd.n9" 0 0 -1578 27162 0
+rnode "gnd.t43" 0 0 -1261 27369 0
+rnode "gnd.t49" 0 0 -625 27369 0
+rnode "gnd.t6" 0 0 -943 32527 0
+rnode "gnd.t48" 0 0 -625 32527 0
+rnode "gnd.t42" 0 0 -1261 32527 0
+rnode "gnd.t4" 0 0 -1579 32527 0
+rnode "gnd.n10" 0 0 -1580 32322 0
+rnode "gnd.n11" 0 0 -1580 32322 0
+rnode "gnd.n12" 0 0 -626 27369 0
+rnode "gnd.t7" 0 0 -943 27369 0
+rnode "gnd.n13" 0 0 -942 26955 0
+rnode "gnd.n14" 0 0 -1578 27162 0
+rnode "gnd.n15" 0 0 -1578 27162 0
+rnode "gnd.n16" 0 0 -1578 27162 0
+rnode "gnd.n17" 0 0 -1578 26955 0
+rnode "gnd.n18" 0 0 -1526 25248 0
+rnode "gnd.n19" 0 0 -456 25012 0
+rnode "gnd.n20" 0 0 -456 25012 0
+rnode "gnd.t47" 0 0 -1527 20091 0
+rnode "gnd.n21" 0 0 -1527 19884 0
+rnode "gnd.n22" 0 0 -1527 19884 0
+rnode "gnd.n23" 0 0 -455 19844 0
+rnode "gnd.n24" 0 0 -455 19844 0
+rnode "gnd.t0" 0 0 -509 18344 0
+rnode "gnd.n25" 0 0 -509 18559 0
+rnode "gnd.n26" 0 0 -509 13610 0
+rnode "gnd.t57" 0 0 -1535 13591 0
+rnode "gnd.n27" 0 0 -1535 13383 0
+rnode "gnd.n28" 0 0 -1535 13383 0
+rnode "gnd.n29" 0 0 -1514 12000 0
+rnode "gnd.n30" 0 0 -876 11797 0
+rnode "gnd.t2" 0 0 -877 11997 0
+rnode "gnd.n31" 0 0 -876 11584 0
+rnode "gnd.n32" 0 0 -876 11797 0
+rnode "gnd.n33" 0 0 -1541 11789 0
+rnode "gnd.t44" 0 0 -1195 11997 0
+rnode "gnd.t54" 0 0 -1513 11997 0
+rnode "gnd.n34" 0 0 -876 11797 0
+rnode "gnd.n35" 0 0 -876 11797 0
+rnode "gnd.n36" 0 0 -1541 11789 0
+rnode "gnd.n37" 0 0 -1541 11789 0
+rnode "gnd.n38" 0 0 -874 6839 0
+rnode "gnd.t51" 0 0 -559 6839 0
+rnode "gnd.n39" 0 0 -558 6650 0
+rnode "gnd.n40" 0 0 -874 6422 0
+rnode "gnd.n41" 0 0 -2717 -2600 0
+rnode "gnd" 0 0 -686 -2644 0
+resist "gnd.n32" "gnd.n31" 0.0005
+resist "gnd.n11" "gnd.n10" 0.000509802
+resist "gnd.n35" "gnd.n34" 0.000700502
+resist "gnd.n16" "gnd.n9" 0.000832664
+resist "gnd.n16" "gnd.n15" 0.000832664
+resist "gnd.n2" "gnd.t40" 0.001
+resist "gnd.n26" "gnd.n7" 0.00100127
+resist "gnd.n36" "gnd.n30" 0.00100181
+resist "gnd.n22" "gnd.n21" 0.00100367
+resist "gnd.n18" "gnd.n8" 0.00100377
+resist "gnd.n15" "gnd.n14" 0.00131536
+resist "gnd.n14" "gnd.n13" 0.00131776
+resist "gnd.n39" "gnd.n6" 0.0013226
+resist "gnd.n6" "gnd.n4" 0.00140016
+resist "gnd.n36" "gnd.n33" 0.00146655
+resist "gnd.n33" "gnd.n32" 0.00148141
+resist "gnd.n0" "gnd.t10" 0.00162105
+resist "gnd.n27" "gnd.n26" 0.00199847
+resist "gnd.n1" "gnd.t38" 0.00207392
+resist "gnd.n36" "gnd.n35" 0.0020988
+resist "gnd.n19" "gnd.n18" 0.00299533
+resist "gnd.n23" "gnd.n22" 0.00299544
+resist "gnd.n6" "gnd.n5" 0.00340028
+resist "gnd.n24" "gnd.n23" 0.0134563
+resist "gnd.n20" "gnd.n19" 0.013459
+resist "gnd.n28" "gnd.n27" 0.0144555
+resist "gnd.n40" "gnd.n39" 0.0159433
+resist "gnd.n37" "gnd.n36" 0.0164433
+resist "gnd.n39" "gnd.n38" 0.0166456
+resist "gnd.n30" "gnd.n29" 0.0168258
+resist "gnd.n17" "gnd.n16" 0.0176648
+resist "gnd.n14" "gnd.n12" 0.0181621
+resist "gnd.t35" "gnd.t11" 0.023
+resist "gnd.t25" "gnd.t13" 0.027
+resist "gnd.t33" "gnd.t9" 0.0375484
+resist "gnd.t37" "gnd.t17" 0.0376923
+resist "gnd.n3" "gnd.t25" 0.038
+resist "gnd.t29" "gnd.t19" 0.039
+resist "gnd.t17" "gnd.n2" 0.0395
+resist "gnd.t27" "gnd.t31" 0.0426034
+resist "gnd.t19" "gnd.t33" 0.043
+resist "gnd.t23" "gnd.t27" 0.048
+resist "gnd.t31" "gnd.t35" 0.048
+resist "gnd.t25" "gnd.t15" 0.049
+resist "gnd.t15" "gnd.t21" 0.049
+resist "gnd.t21" "gnd.t23" 0.049
+resist "gnd.t9" "gnd.t37" 0.049
+resist "gnd.t13" "gnd.t29" 0.05
+resist "gnd.n3" "gnd.t24" 0.069
+resist "gnd.n25" "gnd.n24" 0.0893886
+resist "gnd.n29" "gnd.n28" 0.0944968
+resist "gnd.t32" "gnd.t8" 0.107
+resist "gnd.t24" "gnd.t14" 0.109
+resist "gnd.t14" "gnd.t20" 0.109
+resist "gnd.t20" "gnd.t22" 0.109
+resist "gnd.t22" "gnd.t26" 0.109
+resist "gnd.t26" "gnd.t30" 0.109
+resist "gnd.t30" "gnd.t34" 0.109
+resist "gnd.t34" "gnd.n1" 0.112492
+resist "gnd.t36" "gnd.t16" 0.115
+resist "gnd.t8" "gnd.t36" 0.117
+resist "gnd.n1" "gnd.n0" 0.119908
+resist "gnd.t41" "gnd.t32" 0.122
+resist "gnd.t24" "gnd.t12" 0.123
+resist "gnd.t28" "gnd.t18" 0.125
+resist "gnd.n0" "gnd.t39" 0.139062
+resist "gnd.n18" "gnd.n17" 0.151907
+resist "gnd.t12" "gnd.t28" 0.156
+resist "gnd.t18" "gnd.t41" 0.165
+resist "gnd.n38" "gnd.n37" 0.3775
+resist "gnd.n22" "gnd.n20" 0.394394
+resist "gnd.n12" "gnd.n11" 0.395255
+resist "gnd.n26" "gnd.n25" 0.408799
+resist "gnd" "gnd.n41" 8.95405
+resist "gnd.n39" "gnd.t51" 152
+resist "gnd.n39" "gnd.t55" 152
+resist "gnd.n4" "gnd.t45" 152
+resist "gnd.n5" "gnd.t3" 152
+resist "gnd.n27" "gnd.t57" 152
+resist "gnd.n23" "gnd.t53" 152
+resist "gnd.n21" "gnd.t47" 152
+resist "gnd.n15" "gnd.t49" 152
+resist "gnd.n13" "gnd.t7" 152
+resist "gnd.n15" "gnd.t43" 152
+resist "gnd.n9" "gnd.t5" 152
+resist "gnd.n7" "gnd.t1" 152
+resist "gnd.n34" "gnd.t54" 152.141
+resist "gnd.n36" "gnd.t50" 152.141
+resist "gnd.n32" "gnd.t2" 152.141
+resist "gnd.n25" "gnd.t56" 152.141
+resist "gnd.n19" "gnd.t52" 152.141
+resist "gnd.n8" "gnd.t46" 152.141
+resist "gnd.n10" "gnd.t48" 152.141
+resist "gnd.n10" "gnd.t42" 152.141
+resist "gnd.n10" "gnd.t4" 152.141
+resist "gnd.n35" "gnd.t44" 152.142
+resist "gnd.n11" "gnd.t6" 152.144
+resist "gnd.n25" "gnd.t0" 152.376
+resist "gnd.n41" "gnd.n40" 236.504
+resist "gnd.n41" "gnd.n3" 698.217
+device rsubckt sky130_fd_pr__res_xhigh_po -978 27378 -977 27379  "gnd" "a_n978_27378#" 140 0 "gnd.t6" 4726 0 "gnd.t7" 4726 0
+device rsubckt sky130_fd_pr__res_xhigh_po -1614 27378 -1613 27379  "gnd" "a_n1614_27378#" 140 0 "gnd.t4" 4726 0 "gnd.t5" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 22566 17198 22567 17199  "None" "Bot_1.t6" 32292 0 "Bot_2.t1" -13130 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 28066 22698 28067 22699  "None" "Top_1.t4" 34132 0 "Bot_1.t0" -11738 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 22566 28198 22567 28199  "None" "gnd.t8" 25048 0 "gnd.t9" -10444 0
+device rsubckt sky130_fd_pr__res_xhigh_po -1206 20082 -1205 20083  "gnd" "a_n1206_20082#" 140 0 "Top_2.t0" 4726 0 "vbias2.t0" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 33566 17198 33567 17199  "None" "Top_1.t3" 41528 0 "Bot_1.t1" -18016 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 39066 22698 39067 22699  "None" "gnd.t10" 25048 0 "gnd.t11" -8163 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 11566 22698 11567 22699  "None" "Top_2.t4" 23512 0 "Bot_2.t3" -7480 0
+device rsubckt sky130_fd_pr__res_xhigh_po -1296 27378 -1295 27379  "gnd" "a_n1296_27378#" 140 0 "gnd.t42" 4726 0 "gnd.t43" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 5986 17198 5987 17199  "None" "gnd.t12" 25688 0 "gnd.t13" -8205 0
+device rsubckt sky130_fd_pr__res_xhigh_po -1562 20100 -1561 20101  "gnd" "a_n1562_20100#" 140 0 "gnd.t46" 4726 0 "gnd.t47" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 11486 11604 11487 11605  "None" "gnd.t14" 25688 0 "gnd.t15" -8205 0
+device rsubckt sky130_fd_pr__res_xhigh_po -490 20064 -489 20065  "gnd" "a_n490_20064#" 140 0 "gnd.t52" 4726 0 "gnd.t53" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 33566 28198 33567 28199  "None" "gnd.t16" 25048 0 "gnd.t17" -10607 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 5986 28204 5987 28205  "None" "gnd.t18" 25688 0 "gnd.t19" -8205 0
+device rsubckt sky130_fd_pr__res_xhigh_po -888 20082 -887 20083  "gnd" "a_n888_20082#" 140 0 "Top_1.t0" 4726 0 "vbias1.t0" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 16986 11604 16987 11605  "None" "gnd.t20" 25688 0 "gnd.t21" -8205 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 22566 22698 22567 22699  "None" "Bot_1.t5" 24056 0 "Bot_2.t2" -9036 0
+device rsubckt sky130_fd_pr__res_xhigh_po -1548 6848 -1547 6849  "gnd" "a_n1548_6848#" 140 0 "gnd.t54" 4726 0 "gnd.t55" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 22486 11604 22487 11605  "None" "gnd.t22" 25688 0 "gnd.t23" -8205 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 5986 11604 5987 11605  "None" "gnd.t24" 25688 0 "gnd.t25" -8205 0
+device rsubckt sky130_fd_pr__res_xhigh_po -594 6848 -593 6849  "gnd" "a_n594_6848#" 140 0 "gnd.t50" 4726 0 "gnd.t51" 4726 0
+device rsubckt sky130_fd_pr__res_xhigh_po -1570 13600 -1569 13601  "gnd" "a_n1570_13600#" 140 0 "gnd.t56" 4726 0 "gnd.t57" 4726 0
+device rsubckt sky130_fd_pr__res_xhigh_po -914 13620 -913 13621  "gnd" "a_n914_13620#" 140 0 "vinp2.t0" 4726 0 "Bot_1.t4" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 27986 11604 27987 11605  "None" "gnd.t26" 25688 0 "gnd.t27" -8205 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 17066 17198 17067 17199  "None" "Top_2.t3" 24600 0 "Bot_2.t4" -7932 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 33566 22698 33567 22699  "None" "Top_2.t2" 23000 0 "Bot_2.t5" -7582 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 5986 22698 5987 22699  "None" "gnd.t28" 25688 0 "gnd.t29" -8205 0
+device rsubckt sky130_fd_pr__res_xhigh_po -912 6848 -911 6849  "gnd" "a_n912_6848#" 140 0 "gnd.t2" 4726 0 "gnd.t3" 4726 0
+device rsubckt sky130_fd_pr__res_xhigh_po -1230 6848 -1229 6849  "gnd" "a_n1230_6848#" 140 0 "gnd.t44" 4726 0 "gnd.t45" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 33486 11604 33487 11605  "None" "gnd.t30" 25688 0 "gnd.t31" -8205 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 17066 28198 17067 28199  "None" "gnd.t32" 25048 0 "gnd.t33" -10806 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 38986 11604 38987 11605  "None" "gnd.t34" 25688 0 "gnd.t35" -8205 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 28066 17198 28067 17199  "None" "Top_2.t1" 24392 0 "Bot_2.t6" -8256 0
+device rsubckt sky130_fd_pr__res_xhigh_po -1232 13620 -1231 13621  "gnd" "a_n1232_13620#" 140 0 "vinp1.t0" 4726 0 "Bot_2.t0" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 28066 28198 28067 28199  "None" "gnd.t36" 25048 0 "gnd.t37" -10592 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 39066 17198 39067 17199  "None" "gnd.t38" 25048 0 "gnd.t35" -8252 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 17066 22698 17067 22699  "None" "Top_1.t2" 33928 0 "Bot_1.t2" -12354 0
+device rsubckt sky130_fd_pr__res_xhigh_po -544 13618 -543 13619  "gnd" "a_n544_13618#" 140 0 "gnd.t0" 4726 0 "gnd.t1" 4726 0
+device rsubckt sky130_fd_pr__res_xhigh_po -660 27378 -659 27379  "gnd" "a_n660_27378#" 140 0 "gnd.t48" 4726 0 "gnd.t49" 4726 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 11566 17198 11567 17199  "None" "Top_1.t1" 43248 0 "Bot_1.t3" -18424 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 39066 28198 39067 28199  "None" "gnd.t39" 25048 0 "gnd.t40" -7986 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 11566 28198 11567 28199  "None" "gnd.t41" 25048 0 "gnd.t19" -10459 0

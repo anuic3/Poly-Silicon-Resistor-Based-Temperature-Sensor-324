@@ -1,0 +1,378 @@
+* NGSPICE file created from nand_flat.ext - technology: sky130A
+
+
+* Top level circuit nand_flat
+
+X0 net12.t0 v4 net13.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+X1 v5 n5 net2.t0 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X2 net4.t0 n8 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X3 v4 n5 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X4 v6 n6 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X5 v4 n4 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X6 v8 n9 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X7 v2 n2 net8.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X8 vout.t1 v5 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X9 v9 n1 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X10 net2.t1 n6 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X11 vout.t3 v4 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X12 v1 n2 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X13 v5 n5 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X14 net8.t0 n3 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X15 net5.t1 n9 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X16 vout.t8 v3 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X17 v6 n7 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X18 net16.t1 v8 net17.t0 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+X19 vout.t9 v9 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X20 net11.t1 v3 net12.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+X21 vout.t0 v7 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X22 vout.t4 v2 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X23 net15.t0 v7 net16.t0 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+X24 vout.t7 v1 net10.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+X25 v5 n6 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X26 net10.t0 v2 net11.t0 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+X27 net6.t0 n1 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X28 v7 n7 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X29 v9 n9 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X30 net14.t1 v6 net15.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+X31 v2 n3 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X32 v1 n1 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X33 v2 n2 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X34 v6 n6 net3.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X35 v8 n8 net5.t0 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X36 vout.t2 v8 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X37 v3 n4 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X38 vout.t6 v1 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X39 v3 n3 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X40 net3.t0 n7 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X41 v7 n8 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X42 net1.t0 n5 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X43 vout.t5 v6 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X44 v1 n1 net9.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X45 v3 n3 net7.t0 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X46 v9 n9 net6.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X47 net13.t0 v5 net14.t0 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+X48 v4 n4 net1.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X49 v8 n8 VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.68e+06u l=150000u
+X50 net9.t0 n2 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X51 net7.t1 n4 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X52 v7 n7 net4.t1 GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=740000u l=150000u
+X53 net17.t1 v9 GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=3.24e+06u l=150000u
+R0 net13 net13.n0 13.072
+R1 net13.n0 net13.t1 6.111
+R2 net13.n0 net13.t0 6.111
+R3 net12.n0 net12.t1 6.111
+R4 net12.n0 net12.t0 6.111
+R5 net12 net12.n0 3.486
+R6 net2.n0 net2.t0 26.756
+R7 net2.n0 net2.t1 26.756
+R8 net2 net2.n0 1.147
+R9 net4.n0 net4.t1 26.756
+R10 net4.n0 net4.t0 26.756
+R11 net4 net4.n0 3.053
+R12 net8.t0 net8.t1 53.512
+R13 vout.t0 vout.n0 17.017
+R14 vout.n1 vout.t4 18.111
+R15 vout.n0 vout.n1 1.09
+R16 vout.n7 vout.n0 0.468
+R17 vout.n4 vout.t8 18.111
+R18 vout.n6 vout.n4 0.418
+R19 vout.n6 vout.n5 0.668
+R20 vout.n5 vout.n7 0.963
+R21 vout vout.n6 0.17
+R22 vout vout.t7 9.449
+R23 vout.n5 vout.t9 17.017
+R24 vout.n4 vout.t5 17.017
+R25 vout.n7 vout.n2 0.9
+R26 vout.n3 vout.t6 18.111
+R27 vout.n2 vout.n3 1.09
+R28 vout.n3 vout.t1 17.017
+R29 vout.n2 vout.t2 17.017
+R30 vout.n1 vout.t3 17.017
+R31 net5.n0 net5.t0 26.756
+R32 net5.n0 net5.t1 26.756
+R33 net5 net5.n0 3.435
+R34 net17 net17.n0 20.108
+R35 net17.n0 net17.t0 6.111
+R36 net17.n0 net17.t1 6.111
+R37 net16.n0 net16.t0 6.111
+R38 net16.n0 net16.t1 6.111
+R39 net16 net16.n0 3.559
+R40 net11 net11.n0 11.329
+R41 net11.n0 net11.t0 6.111
+R42 net11.n0 net11.t1 6.111
+R43 net15 net15.n0 16.122
+R44 net15.n0 net15.t1 6.111
+R45 net15.n0 net15.t0 6.111
+R46 net10.n0 net10.t0 6.111
+R47 net10.n0 net10.t1 6.111
+R48 net6.n0 net6.t1 26.756
+R49 net6.n0 net6.t0 26.756
+R50 net6 net6.n0 1.529
+R51 net14.n0 net14.t0 6.111
+R52 net14.n0 net14.t1 6.111
+R53 net14 net14.n0 0.872
+R54 net3.n0 net3.t1 26.756
+R55 net3.n0 net3.t0 26.756
+R56 net3 net3.n0 1.528
+R57 net1.n0 net1.t1 26.756
+R58 net1.n0 net1.t0 26.756
+R59 net1 net1.n0 1.91
+R60 net9.n0 net9.t1 26.756
+R61 net9.n0 net9.t0 26.756
+R62 net9 net9.n0 1.482
+R63 net7.n0 net7.t0 26.756
+R64 net7.n0 net7.t1 26.756
+R65 net7 net7.n0 1.91
+C0 v9 net17 0.02fF
+C1 v4 net12 0.01fF
+C2 net16 net12 0.06fF
+C3 net15 net14 0.44fF
+C4 net4 n1 0.03fF
+C5 v4 n1 0.10fF
+C6 v3 v2 0.12fF
+C7 v8 n1 0.11fF
+C8 v7 v5 0.03fF
+C9 v3 v5 0.03fF
+C10 n1 net9 0.09fF
+C11 v7 n7 0.27fF
+C12 n9 VDD 0.59fF
+C13 v8 net5 0.10fF
+C14 v1 n2 0.50fF
+C15 n6 VDD 0.58fF
+C16 n4 v4 0.27fF
+C17 net13 net17 0.06fF
+C18 net11 vout 0.21fF
+C19 n1 n9 0.25fF
+C20 v1 v2 0.11fF
+C21 v7 v3 0.01fF
+C22 net15 vout 0.07fF
+C23 net11 net12 0.42fF
+C24 net14 v5 0.01fF
+C25 v1 v5 0.03fF
+C26 n8 VDD 0.58fF
+C27 net15 net12 0.09fF
+C28 v9 VDD 2.32fF
+C29 net3 n6 0.07fF
+C30 net5 n9 0.08fF
+C31 n2 VDD 0.59fF
+C32 n1 n6 0.17fF
+C33 net13 net14 0.43fF
+C34 v3 net17 0.01fF
+C35 v9 vout 0.19fF
+C36 v3 net7 0.09fF
+C37 n3 n2 0.10fF
+C38 n5 VDD 0.59fF
+C39 n1 n8 0.17fF
+C40 v9 n1 0.38fF
+C41 n1 net6 0.07fF
+C42 n1 n2 0.27fF
+C43 v2 VDD 2.37fF
+C44 v3 v1 0.05fF
+C45 v5 VDD 2.39fF
+C46 net5 n8 0.05fF
+C47 m5_n656_1236# VDD 1.13fF
+C48 n3 v2 0.51fF
+C49 v2 vout 0.11fF
+C50 v6 v4 0.04fF
+C51 net16 v6 0.00fF
+C52 v6 v8 0.03fF
+C53 n7 VDD 0.60fF
+C54 n1 n5 0.17fF
+C55 v5 vout 0.17fF
+C56 net17 net14 0.09fF
+C57 n1 v2 0.09fF
+C58 v4 v8 0.01fF
+C59 net16 v8 0.02fF
+C60 net13 vout 0.13fF
+C61 n1 v5 0.10fF
+C62 net3 n7 0.08fF
+C63 net12 net13 0.42fF
+C64 n1 n7 0.08fF
+C65 v7 VDD 2.38fF
+C66 v3 VDD 2.41fF
+C67 net2 n6 0.07fF
+C68 n1 net1 0.03fF
+C69 n4 n5 0.10fF
+C70 n3 v3 0.27fF
+C71 v7 vout 0.19fF
+C72 v3 vout 0.16fF
+C73 net12 v3 0.01fF
+C74 net17 VDD 0.04fF
+C75 v6 n6 0.27fF
+C76 v7 n1 0.10fF
+C77 n1 v3 0.09fF
+C78 net15 v6 0.02fF
+C79 v8 n9 0.51fF
+C80 net17 vout 0.12fF
+C81 n3 net7 0.05fF
+C82 n5 net2 0.07fF
+C83 v1 VDD 2.43fF
+C84 n4 net1 0.07fF
+C85 v6 v9 0.02fF
+C86 net15 net16 0.41fF
+C87 n1 net7 0.03fF
+C88 net14 vout 0.07fF
+C89 v1 vout 0.32fF
+C90 net12 net14 0.15fF
+C91 net4 n8 0.08fF
+C92 net2 v5 0.10fF
+C93 v8 n8 0.27fF
+C94 n4 v3 0.51fF
+C95 v8 v9 0.13fF
+C96 n1 v1 0.38fF
+C97 v6 v2 0.01fF
+C98 n2 net9 0.08fF
+C99 v4 n5 0.51fF
+C100 v6 v5 0.12fF
+C101 n4 net7 0.08fF
+C102 v6 n7 0.51fF
+C103 n3 VDD 0.59fF
+C104 v4 v2 0.05fF
+C105 vout VDD 10.97fF
+C106 net15 net11 0.06fF
+C107 v4 v5 0.12fF
+C108 v8 v5 0.02fF
+C109 n9 n8 0.10fF
+C110 net4 n7 0.07fF
+C111 v9 n9 0.27fF
+C112 n9 net6 0.07fF
+C113 n1 VDD 0.54fF
+C114 net12 vout 0.16fF
+C115 v4 net13 0.02fF
+C116 net16 net13 0.09fF
+C117 n3 n1 0.17fF
+C118 v6 v7 0.11fF
+C119 v4 net1 0.10fF
+C120 v6 v3 0.02fF
+C121 net3 n1 0.03fF
+C122 v7 net4 0.10fF
+C123 v4 v7 0.02fF
+C124 net16 v7 0.02fF
+C125 v6 net17 0.01fF
+C126 v4 v3 0.11fF
+C127 v8 v7 0.12fF
+C128 net16 v3 0.00fF
+C129 n5 n6 0.10fF
+C130 v9 net6 0.10fF
+C131 n4 VDD 0.59fF
+C132 net11 v2 0.02fF
+C133 n1 net5 0.03fF
+C134 n3 n4 0.10fF
+C135 net16 net17 0.39fF
+C136 v8 net17 0.01fF
+C137 n6 v5 0.51fF
+C138 v6 net14 0.01fF
+C139 n7 n6 0.10fF
+C140 net11 net13 0.15fF
+C141 n4 n1 0.17fF
+C142 net15 net13 0.15fF
+C143 v2 n2 0.27fF
+C144 net16 net14 0.15fF
+C145 v9 v5 0.01fF
+C146 v4 v1 0.00fF
+C147 n7 n8 0.10fF
+C148 v1 net9 0.10fF
+C149 net11 v3 0.01fF
+C150 net15 v7 0.01fF
+C151 n5 v5 0.27fF
+C152 v6 VDD 2.38fF
+C153 n1 net2 0.03fF
+C154 v2 v5 0.00fF
+C155 v7 n8 0.51fF
+C156 v6 vout 0.18fF
+C157 v9 v7 0.04fF
+C158 net15 net17 0.14fF
+C159 net1 n5 0.09fF
+C160 v4 VDD 2.42fF
+C161 v8 VDD 2.40fF
+C162 v6 net3 0.10fF
+C163 v6 n1 0.10fF
+C164 net13 v5 0.01fF
+C165 v4 vout 0.18fF
+C166 net16 vout 0.11fF
+C167 net11 net14 0.09fF
+C168 v8 vout 0.20fF
+C169 m5_n656_1236# GND 0.20fF $ **FLOATING
+C170 net11 GND 0.02fF $ **FLOATING
+C171 net12 GND 0.02fF $ **FLOATING
+C172 net13 GND 0.02fF $ **FLOATING
+C173 net14 GND 0.02fF $ **FLOATING
+C174 net15 GND 0.02fF $ **FLOATING
+C175 net16 GND 0.02fF $ **FLOATING
+C176 net17 GND 0.02fF $ **FLOATING
+C177 v2 GND 0.95fF
+C178 v3 GND 1.06fF
+C179 v1 GND 0.99fF
+C180 v4 GND 1.01fF
+C181 v6 GND 0.93fF
+C182 v5 GND 0.92fF
+C183 v7 GND 0.95fF
+C184 v9 GND 0.93fF
+C185 v8 GND 0.95fF
+C186 vout GND 1.70fF $ **FLOATING
+C187 net6 GND 0.13fF $ **FLOATING
+C188 net5 GND 0.12fF $ **FLOATING
+C189 net4 GND 0.13fF $ **FLOATING
+C190 net3 GND 0.13fF $ **FLOATING
+C191 net2 GND 0.12fF $ **FLOATING
+C192 net1 GND 0.13fF $ **FLOATING
+C193 net7 GND 0.12fF $ **FLOATING
+C194 net9 GND 0.12fF $ **FLOATING
+C195 n9 GND 1.90fF
+C196 n8 GND 1.90fF
+C197 n7 GND 1.90fF
+C198 n6 GND 1.90fF
+C199 n5 GND 1.90fF
+C200 n4 GND 1.91fF
+C201 n3 GND 1.93fF
+C202 n2 GND 1.94fF
+C203 n1 GND 4.07fF
+C204 VDD GND 48.64fF
+C205 vout.t0 GND 0.08fF
+C206 vout.n0 GND 0.74fF $ **FLOATING
+C207 vout.t4 GND 0.12fF
+C208 vout.n1 GND 1.62fF $ **FLOATING
+C209 vout.t3 GND 0.08fF
+C210 vout.n2 GND 0.86fF $ **FLOATING
+C211 vout.t2 GND 0.08fF
+C212 vout.t6 GND 0.12fF
+C213 vout.n3 GND 1.62fF $ **FLOATING
+C214 vout.t1 GND 0.08fF
+C215 vout.t8 GND 0.12fF
+C216 vout.n4 GND 1.48fF $ **FLOATING
+C217 vout.t5 GND 0.08fF
+C218 vout.n5 GND 0.78fF $ **FLOATING
+C219 vout.t9 GND 0.08fF
+C220 vout.t7 GND 0.75fF
+C221 vout.n6 GND 0.25fF $ **FLOATING
+C222 vout.n7 GND 0.60fF $ **FLOATING
+
+V1 VDD GND 1.8
+V2 n9 GND PULSE(1.8,0,440n,.1p,.1p,.5u,1u)
+V3 n8 GND PULSE(0,1.8,385n,.1p,.1p,.5u,1u)
+V4 n7 GND PULSE(1.8,0,330n,.1p,.1p,.5u,1u)
+V5 n6 GND PULSE(0,1.8,275n,.1p,.1p,.5u,1u)
+V6 n5 GND PULSE(1.8,0,220n,.1p,.1p,.5u,1u)
+V7 n4 GND PULSE(0,1.8,165n,.1p,.1p,.5u,1u)
+V8 n3 GND PULSE(1.8,0,110n,.1p,.1p,.5u,1u)
+V9 n2 GND PULSE(0,1.8,55n,.1p,.1p,.5u,1u)
+V10 n1 GND PULSE(1.8,0,0,.1p,.1p,.5u,1u)
+
+**** begin user architecture code
+ .lib /home/arun/open_pdks/sky130/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+
+.tran 10n 2u
+.control
+save v(n2) v(n1) v(v2) v(vout)
+run
+.endc
+
+**** end user architecture code
+**.ends
+.GLOBAL VDD
+.GLOBAL GND
+** flattened .save nodes
+.end
+*
+

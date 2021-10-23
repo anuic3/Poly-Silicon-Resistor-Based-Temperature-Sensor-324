@@ -1,0 +1,90 @@
+timestamp 1634876261
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+parameters sky130_fd_pr__res_xhigh_po l=l w=w
+parameters sky130_fd_pr__res_xhigh_po_5p73 l=l
+parameters sky130_fd_pr__res_xhigh_po_2p85 l=l
+parameters sky130_fd_pr__res_xhigh_po_1p41 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p69 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p35 l=l
+parameters sky130_fd_pr__cap_mim_m3_1 w=w l=l
+node "a_n594_6848#" 135029 0 -594 6848 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n912_6848#" 135029 0 -912 6848 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1230_6848#" 135029 0 -1230 6848 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1548_6848#" 135029 0 -1548 6848 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n544_13618#" 135029 0 -544 13618 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vinp2" 177 2628.03 -914 13188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62356 2020 113088 3252 0 0 0 0 0 0 0 0 0 0
+node "a_n914_13620#" 135029 0 -914 13620 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Bot_1" 180 303628 -914 18346 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61344 2012 7928380 30372 102232520 190368 247481052 271200 14279300 19028 16563552 25112 0 0
+node "vinp1" 177 2675.64 -1232 13188 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62356 2020 114420 3284 0 0 0 0 0 0 0 0 0 0
+node "a_n1232_13620#" 135029 0 -1232 13620 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Bot_2" 176 329279 -1232 18346 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61344 2012 15786756 148120 109768356 184844 272160433 240294 0 0 0 0 0 0
+node "a_n1570_13600#" 135029 0 -1570 13600 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n490_20064#" 135029 0 -490 20064 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "Top_1" 187 88662.9 -888 19650 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61624 2020 363560 10628 111440 1356 111440 1356 90592567 152718 111903408 176498 0 0
+node "a_n888_20082#" 135029 0 -888 20082 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vbias1" 177 1910.62 -888 24808 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61484 2016 83760 1772 0 0 0 0 0 0 0 0 0 0
+node "Top_2" 176 148901 -1206 19650 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61344 2012 8350904 113204 179776 1696 179776 1696 191126296 228508 103741420 152888 0 0
+node "a_n1206_20082#" 135029 0 -1206 20082 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vbias2" 175 1912.82 -1206 24808 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62208 2016 81640 1732 0 0 0 0 0 0 0 0 0 0
+node "a_n1562_20100#" 135029 0 -1562 20100 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n660_27378#" 135029 0 -660 27378 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n978_27378#" 135029 0 -978 27378 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1296_27378#" 135029 0 -1296 27378 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1614_27378#" 135029 0 -1614 27378 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330820 9592 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 -6540 -3478 ppd 0 0 0 0 0 0 0 0 0 0 400133916 396416 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112639116 349552 113821376 323520 157965624 405916 632464229 505300 326834123 506732 0 0 0 0
+cap "vbias2" "vbias1" 273.867
+cap "Bot_1" "Top_1" 155268
+cap "Top_2" "Bot_2" 117979
+cap "vinp1" "vinp2" 268.987
+cap "Top_2" "Top_1" 10038.9
+cap "Bot_1" "Top_2" 14350.6
+cap "Top_1" "Bot_2" 3688.12
+cap "Bot_1" "Bot_2" 62098
+device csubckt sky130_fd_pr__cap_mim_m3_1 38986 11604 38987 11605 w=4800 l=4826 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 33486 11604 33487 11605 w=4800 l=4826 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 27986 11604 27987 11605 w=4800 l=4826 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 22486 11604 22487 11605 w=4800 l=4826 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 16986 11604 16987 11605 w=4800 l=4826 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 11486 11604 11487 11605 w=4800 l=4826 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 5986 11604 5987 11605 w=4800 l=4826 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 39066 17198 39067 17199 w=4800 l=4820 "None" "gnd" 5714 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 33566 17198 33567 17199 w=4800 l=4820 "None" "Top_1" 8104 0 "Bot_1" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 28066 17198 28067 17199 w=4800 l=4820 "None" "Top_2" 5036 0 "Bot_2" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 22566 17198 22567 17199 w=4800 l=4820 "None" "Bot_1" 8492 0 "Bot_2" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 17066 17198 17067 17199 w=4800 l=4820 "None" "Top_2" 4632 0 "Bot_2" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 11566 17198 11567 17199 w=4800 l=4820 "None" "Top_1" 8312 0 "Bot_1" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 5986 17198 5987 17199 w=4800 l=4820 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 39066 22698 39067 22699 w=4800 l=4820 "None" "gnd" 5714 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 33566 22698 33567 22699 w=4800 l=4820 "None" "Top_2" 4472 0 "Bot_2" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 28066 22698 28067 22699 w=4800 l=4820 "None" "Top_1" 5864 0 "Bot_1" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 22566 22698 22567 22699 w=4800 l=4820 "None" "Bot_1" 6320 0 "Bot_2" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 17066 22698 17067 22699 w=4800 l=4820 "None" "Top_1" 8108 0 "Bot_1" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 11566 22698 11567 22699 w=4800 l=4820 "None" "Top_2" 4368 0 "Bot_2" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 5986 22698 5987 22699 w=4800 l=4832 "None" "gnd" 5760 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 39066 28198 39067 28199 w=4800 l=4820 "None" "gnd" 5714 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 33566 28198 33567 28199 w=4800 l=4820 "None" "gnd" 5714 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 28066 28198 28067 28199 w=4800 l=4820 "None" "gnd" 5714 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 22566 28198 22567 28199 w=4800 l=4820 "None" "gnd" 5714 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 17066 28198 17067 28199 w=4800 l=4820 "None" "gnd" 5714 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 11566 28198 11567 28199 w=4800 l=4820 "None" "gnd" 5714 0 "gnd" 140 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 5986 28204 5987 28205 w=4800 l=4826 "None" "gnd" 5772 0 "gnd" 140 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -594 6848 -593 6849 l=4726 "gnd" "a_n594_6848#" 0 0 "gnd" 0 0 "gnd" 140 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -912 6848 -911 6849 l=4726 "gnd" "a_n912_6848#" 0 0 "gnd" 140 0 "gnd" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -1230 6848 -1229 6849 l=4726 "gnd" "a_n1230_6848#" 0 0 "gnd" 140 0 "gnd" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -1548 6848 -1547 6849 l=4726 "gnd" "a_n1548_6848#" 0 0 "gnd" 140 0 "gnd" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -544 13618 -543 13619 l=4726 "gnd" "a_n544_13618#" 0 0 "gnd" 0 0 "gnd" 140 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -914 13620 -913 13621 l=4726 "gnd" "a_n914_13620#" 0 0 "vinp2" 70 0 "Bot_1" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -1232 13620 -1231 13621 l=4726 "gnd" "a_n1232_13620#" 0 0 "vinp1" 70 0 "Bot_2" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -1570 13600 -1569 13601 l=4726 "gnd" "a_n1570_13600#" 0 0 "gnd" 140 0 "gnd" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -490 20064 -489 20065 l=4726 "gnd" "a_n490_20064#" 0 0 "gnd" 0 0 "gnd" 140 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -888 20082 -887 20083 l=4726 "gnd" "a_n888_20082#" 0 0 "Top_1" 70 0 "vbias1" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -1206 20082 -1205 20083 l=4726 "gnd" "a_n1206_20082#" 0 0 "Top_2" 70 0 "vbias2" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -1562 20100 -1561 20101 l=4726 "gnd" "a_n1562_20100#" 0 0 "gnd" 140 0 "gnd" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -660 27378 -659 27379 l=4726 "gnd" "a_n660_27378#" 0 0 "gnd" 0 0 "gnd" 140 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -978 27378 -977 27379 l=4726 "gnd" "a_n978_27378#" 0 0 "gnd" 140 0 "gnd" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -1296 27378 -1295 27379 l=4726 "gnd" "a_n1296_27378#" 0 0 "gnd" 140 0 "gnd" 0 0
+device rsubckt sky130_fd_pr__res_xhigh_po_0p35 -1614 27378 -1613 27379 l=4726 "gnd" "a_n1614_27378#" 0 0 "gnd" 140 0 "gnd" 0 0

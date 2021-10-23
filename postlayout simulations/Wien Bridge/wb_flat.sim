@@ -1,0 +1,82 @@
+| units: 500000 tech: sky130A format: MIT
+x gnd gnd l=4820 w=4800 x=11566 y=28198 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4820 w=4800 x=39066 y=28198 sky130_fd_pr__cap_mim_m3_1
+x Top_1 Bot_1 l=4820 w=4800 x=11566 y=17198 sky130_fd_pr__cap_mim_m3_1
+x a_n660_27378# gnd gnd gnd l=4726 w=0 x=-659 y=27378 sky130_fd_pr__res_xhigh_po_0p35
+x a_n544_13618# gnd gnd gnd l=4726 w=0 x=-543 y=13618 sky130_fd_pr__res_xhigh_po_0p35
+x Top_1 Bot_1 l=4820 w=4800 x=17066 y=22698 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4820 w=4800 x=39066 y=17198 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4820 w=4800 x=28066 y=28198 sky130_fd_pr__cap_mim_m3_1
+x a_n1232_13620# vinp1 Bot_2 gnd l=4726 w=0 x=-1231 y=13620 sky130_fd_pr__res_xhigh_po_0p35
+x Top_2 Bot_2 l=4820 w=4800 x=28066 y=17198 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4826 w=4800 x=38986 y=11604 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4820 w=4800 x=17066 y=28198 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4826 w=4800 x=33486 y=11604 sky130_fd_pr__cap_mim_m3_1
+x a_n1230_6848# gnd gnd gnd l=4726 w=0 x=-1229 y=6848 sky130_fd_pr__res_xhigh_po_0p35
+x a_n912_6848# gnd gnd gnd l=4726 w=0 x=-911 y=6848 sky130_fd_pr__res_xhigh_po_0p35
+x gnd gnd l=4832 w=4800 x=5986 y=22698 sky130_fd_pr__cap_mim_m3_1
+x Top_2 Bot_2 l=4820 w=4800 x=33566 y=22698 sky130_fd_pr__cap_mim_m3_1
+x Top_2 Bot_2 l=4820 w=4800 x=17066 y=17198 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4826 w=4800 x=27986 y=11604 sky130_fd_pr__cap_mim_m3_1
+x a_n914_13620# vinp2 Bot_1 gnd l=4726 w=0 x=-913 y=13620 sky130_fd_pr__res_xhigh_po_0p35
+x a_n1570_13600# gnd gnd gnd l=4726 w=0 x=-1569 y=13600 sky130_fd_pr__res_xhigh_po_0p35
+x a_n594_6848# gnd gnd gnd l=4726 w=0 x=-593 y=6848 sky130_fd_pr__res_xhigh_po_0p35
+x gnd gnd l=4826 w=4800 x=5986 y=11604 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4826 w=4800 x=22486 y=11604 sky130_fd_pr__cap_mim_m3_1
+x a_n1548_6848# gnd gnd gnd l=4726 w=0 x=-1547 y=6848 sky130_fd_pr__res_xhigh_po_0p35
+x Bot_1 Bot_2 l=4820 w=4800 x=22566 y=22698 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4826 w=4800 x=16986 y=11604 sky130_fd_pr__cap_mim_m3_1
+x a_n888_20082# Top_1 vbias1 gnd l=4726 w=0 x=-887 y=20082 sky130_fd_pr__res_xhigh_po_0p35
+x gnd gnd l=4826 w=4800 x=5986 y=28204 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4820 w=4800 x=33566 y=28198 sky130_fd_pr__cap_mim_m3_1
+x a_n490_20064# gnd gnd gnd l=4726 w=0 x=-489 y=20064 sky130_fd_pr__res_xhigh_po_0p35
+x gnd gnd l=4826 w=4800 x=11486 y=11604 sky130_fd_pr__cap_mim_m3_1
+x a_n1562_20100# gnd gnd gnd l=4726 w=0 x=-1561 y=20100 sky130_fd_pr__res_xhigh_po_0p35
+x gnd gnd l=4820 w=4800 x=5986 y=17198 sky130_fd_pr__cap_mim_m3_1
+x a_n1296_27378# gnd gnd gnd l=4726 w=0 x=-1295 y=27378 sky130_fd_pr__res_xhigh_po_0p35
+x Top_2 Bot_2 l=4820 w=4800 x=11566 y=22698 sky130_fd_pr__cap_mim_m3_1
+x gnd gnd l=4820 w=4800 x=39066 y=22698 sky130_fd_pr__cap_mim_m3_1
+x Top_1 Bot_1 l=4820 w=4800 x=33566 y=17198 sky130_fd_pr__cap_mim_m3_1
+x a_n1206_20082# Top_2 vbias2 gnd l=4726 w=0 x=-1205 y=20082 sky130_fd_pr__res_xhigh_po_0p35
+x gnd gnd l=4820 w=4800 x=22566 y=28198 sky130_fd_pr__cap_mim_m3_1
+x Top_1 Bot_1 l=4820 w=4800 x=28066 y=22698 sky130_fd_pr__cap_mim_m3_1
+x Bot_1 Bot_2 l=4820 w=4800 x=22566 y=17198 sky130_fd_pr__cap_mim_m3_1
+x a_n1614_27378# gnd gnd gnd l=4726 w=0 x=-1613 y=27378 sky130_fd_pr__res_xhigh_po_0p35
+x a_n978_27378# gnd gnd gnd l=4726 w=0 x=-977 y=27378 sky130_fd_pr__res_xhigh_po_0p35
+C Top_1 Bot_1 155.27
+C Top_1 Top_2 10.04
+C Top_1 Bot_2 3.69
+C Bot_1 Top_2 14.35
+C Bot_1 Bot_2 62.10
+C Top_2 Bot_2 117.98
+R a_n594_6848# 135029
+R a_n912_6848# 135029
+R a_n1230_6848# 135029
+R a_n1548_6848# 135029
+R a_n544_13618# 135029
+C vinp2 GND 2.63
+R vinp2 177
+R a_n914_13620# 135029
+C Bot_1 GND 303.63
+R Bot_1 194
+C vinp1 GND 2.68
+R vinp1 177
+R a_n1232_13620# 135029
+C Bot_2 GND 329.28
+R Bot_2 231
+R a_n1570_13600# 135029
+R a_n490_20064# 135029
+C Top_1 GND 88.66
+R Top_1 191
+R a_n888_20082# 135029
+R vbias1 177
+C Top_2 GND 148.90
+R Top_2 229
+R a_n1206_20082# 135029
+R vbias2 175
+R a_n1562_20100# 135029
+R a_n660_27378# 135029
+R a_n978_27378# 135029
+R a_n1296_27378# 135029
+R a_n1614_27378# 135029
+R gnd 22305
